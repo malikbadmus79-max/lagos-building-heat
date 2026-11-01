@@ -1,0 +1,16 @@
+# Target interpreter: Python 3.11
+geopandas
+rasterio
+rioxarray
+xarray
+shapely
+pystac-client
+planetary-computer
+odc-stac
+numpy
+pandas
+matplotlib
+scipy
+statsmodels
+pytest
+requests

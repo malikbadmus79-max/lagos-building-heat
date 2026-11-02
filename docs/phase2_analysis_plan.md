@@ -162,4 +162,12 @@ Each test reruns M1 (and M2 where stated) on the stated sample or with the state
 
 ## Deviations
 
-None so far.
+### 2026-11-02
+
+1. **Decile ties (4.1).** The first implementation ranked tied values in file order. File order follows the grid rows from north to south, so the cells with zero building change were assigned to deciles 2 to 4 by location. This was noticed in the first decile chart, before the findings were written. Ties are now ordered at random with a fixed seed (`SEED` in `phase2.py`), which matches the plan's intent that ties are split evenly. Only the decile table and charts are affected; no model uses the deciles.
+2. **Decile chart axis (4.1).** Several deciles have a mean building change at or near 0 percentage points, so points placed at their mean change overlapped. The chart instead places the deciles at equal spacing and labels each tick with the decile's mean change in percentage points.
+3. **Constant controls.** In the run that excludes industrial cells, `industrial_share` is 0 for every cell and is collinear with the intercept, so it is left out of that model. Any control dropped this way is listed in `constant_controls_dropped` in `phase2_models.csv`.
+4. **H4 sensitivity thresholds (3), interpretation.** When the building-share threshold is varied (0.20, 0.40), the same threshold is used in both group rules: built-up means at least the threshold, and vegetated means below it. For the second vegetated definition (`veg_share_early >= 0.50`), the built-up group keeps its main definition.
+5. **Haze check (5), interpretation.** The screened-median comparison on the 746 `ndvi_screened_ok` cells is described in the plan as a descriptive check only. It is therefore reported separately and not counted in the robustness rule for H2.
+6. **Hotspot cut points (6), interpretation.** "Top quintile" means at or above the 80th percentile of the main sample.
+7. **Case-study maps (7), not yet produced.** The Open Buildings window reads for the maps were stopped by the Claude Code memory reaper while system memory was low, and the job has not been restarted. The case-study table (`phase2_case_studies.csv`) is complete. The maps can be drawn later with `python -m lagos_heat.phase2 --maps-only`.

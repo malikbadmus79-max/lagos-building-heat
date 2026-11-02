@@ -1,0 +1,418 @@
+{
+  "grid_periods_rows": 14890,
+  "grid_periods_columns": 98,
+  "lga_periods_rows": 20,
+  "cells_water_flag": 2452,
+  "cells_land": 12438,
+  "land_cells_s2_low_obs_early_p80": 104,
+  "land_cells_s2_low_obs_late_p80": 53,
+  "land_cells_s2_low_obs_early_screened": 11692,
+  "land_cells_s2_low_obs_late_screened": 105,
+  "ndvi_versions_land_cells": {
+    "p80": {
+      "land_cells": 12438,
+      "valid_both": 12438,
+      "valid_both_share": 1.0,
+      "valid_both_min_obs": 12327,
+      "valid_both_min_obs_share": 0.9910757356488181
+    },
+    "screened": {
+      "land_cells": 12438,
+      "valid_both": 12437,
+      "valid_both_share": 0.9999196012220615,
+      "valid_both_min_obs": 746,
+      "valid_both_min_obs_share": 0.0599774883421772
+    },
+    "noscreen": {
+      "land_cells": 12438,
+      "valid_both": 12438,
+      "valid_both_share": 1.0,
+      "valid_both_min_obs": 12327,
+      "valid_both_min_obs_share": 0.9910757356488181
+    }
+  },
+  "land_cells_lst_low_obs_early": 2698,
+  "land_cells_lst_low_obs_late": 23,
+  "land_cells_low_obs_any": 2708,
+  "land_cells_low_obs_any_share": 0.217719890657662,
+  "land_cells_ob_low_coverage": 0,
+  "cells_analysis_ok": 9730,
+  "cells_ndvi_screened_ok": 746,
+  "cells_analysis_ok_if_screened_obs": 634,
+  "cells_lst_ok": 10106,
+  "land_cells_lst_ok": 9739,
+  "land_cells_ob_overlap_approx": 37,
+  "land_cells_sandfill_candidate": 1465,
+  "land_cells_sandfill_candidate_screened": 822,
+  "min_obs_threshold": 3,
+  "min_ob_coverage": 0.5,
+  "range_checks": {
+    "bshare_2016": {
+      "min": 0.0,
+      "max": 0.700544,
+      "n_missing": 0,
+      "n_outside": 0,
+      "range": [
+        0.0,
+        1.0
+      ]
+    },
+    "bshare_2023": {
+      "min": 0.0,
+      "max": 0.682496,
+      "n_missing": 0,
+      "n_outside": 0,
+      "range": [
+        0.0,
+        1.0
+      ]
+    },
+    "veg_share_early": {
+      "min": 0.0,
+      "max": 1.0,
+      "n_missing": 2452,
+      "n_outside": 0,
+      "range": [
+        0.0,
+        1.0
+      ]
+    },
+    "veg_share_late": {
+      "min": 0.0,
+      "max": 1.0,
+      "n_missing": 2452,
+      "n_outside": 0,
+      "range": [
+        0.0,
+        1.0
+      ]
+    },
+    "veg_share_early_screened": {
+      "min": 0.0,
+      "max": 1.0,
+      "n_missing": 2453,
+      "n_outside": 0,
+      "range": [
+        0.0,
+        1.0
+      ]
+    },
+    "veg_share_late_screened": {
+      "min": 0.0,
+      "max": 1.0,
+      "n_missing": 2452,
+      "n_outside": 0,
+      "range": [
+        0.0,
+        1.0
+      ]
+    },
+    "bare_share_early": {
+      "min": 0.0,
+      "max": 1.0,
+      "n_missing": 2452,
+      "n_outside": 0,
+      "range": [
+        0.0,
+        1.0
+      ]
+    },
+    "bare_share_late": {
+      "min": 0.0,
+      "max": 1.0,
+      "n_missing": 2452,
+      "n_outside": 0,
+      "range": [
+        0.0,
+        1.0
+      ]
+    },
+    "bare_share_early_screened": {
+      "min": 0.0,
+      "max": 1.0,
+      "n_missing": 2453,
+      "n_outside": 0,
+      "range": [
+        0.0,
+        1.0
+      ]
+    },
+    "bare_share_late_screened": {
+      "min": 0.0,
+      "max": 1.0,
+      "n_missing": 2452,
+      "n_outside": 0,
+      "range": [
+        0.0,
+        1.0
+      ]
+    },
+    "ghsl_share_2015": {
+      "min": 0.0,
+      "max": 0.759048,
+      "n_missing": 0,
+      "n_outside": 0,
+      "range": [
+        0.0,
+        1.0
+      ]
+    },
+    "ghsl_share_2020": {
+      "min": 0.0,
+      "max": 0.759048,
+      "n_missing": 0,
+      "n_outside": 0,
+      "range": [
+        0.0,
+        1.0
+      ]
+    },
+    "tree_frac_wc2021": {
+      "min": 0.0,
+      "max": 1.0,
+      "n_missing": 0,
+      "n_outside": 0,
+      "range": [
+        0.0,
+        1.0
+      ]
+    },
+    "water_frac": {
+      "min": 0.0,
+      "max": 1.0,
+      "n_missing": 0,
+      "n_outside": 0,
+      "range": [
+        0.0,
+        1.0
+      ]
+    },
+    "industrial_share": {
+      "min": 0.0,
+      "max": 1.0,
+      "n_missing": 0,
+      "n_outside": 0,
+      "range": [
+        0.0,
+        1.0
+      ]
+    },
+    "frac_in_lagos": {
+      "min": 1.811743854854438e-10,
+      "max": 1.0,
+      "n_missing": 0,
+      "n_outside": 0,
+      "range": [
+        0.0,
+        1.0
+      ]
+    },
+    "ndvi_early_p80": {
+      "min": -0.055366185905698403,
+      "max": 0.756147999382019,
+      "n_missing": 2452,
+      "n_outside": 0,
+      "range": [
+        -1.0,
+        1.0
+      ]
+    },
+    "ndvi_late_p80": {
+      "min": -0.0054679930847758365,
+      "max": 0.7980716159820557,
+      "n_missing": 2452,
+      "n_outside": 0,
+      "range": [
+        -1.0,
+        1.0
+      ]
+    },
+    "ndvi_early": {
+      "min": -0.34968461669408357,
+      "max": 0.7880935996055604,
+      "n_missing": 2453,
+      "n_outside": 0,
+      "range": [
+        -1.0,
+        1.0
+      ]
+    },
+    "ndvi_late": {
+      "min": -0.4654707207873061,
+      "max": 0.8092423997879028,
+      "n_missing": 2452,
+      "n_outside": 0,
+      "range": [
+        -1.0,
+        1.0
+      ]
+    },
+    "ndvi_early_noscreen": {
+      "min": -0.057185897418560505,
+      "max": 0.6584770399093628,
+      "n_missing": 2452,
+      "n_outside": 0,
+      "range": [
+        -1.0,
+        1.0
+      ]
+    },
+    "ndvi_late_noscreen": {
+      "min": -0.03351536002531648,
+      "max": 0.7426487195014954,
+      "n_missing": 2452,
+      "n_outside": 0,
+      "range": [
+        -1.0,
+        1.0
+      ]
+    },
+    "bsi_early": {
+      "min": -0.3181964278626604,
+      "max": 0.3967230755549211,
+      "n_missing": 2453,
+      "n_outside": 0,
+      "range": [
+        -1.0,
+        1.0
+      ]
+    },
+    "bsi_late": {
+      "min": -0.3612607199192047,
+      "max": 0.2259854400217533,
+      "n_missing": 2452,
+      "n_outside": 0,
+      "range": [
+        -1.0,
+        1.0
+      ]
+    },
+    "bsi_early_noscreen": {
+      "min": -0.26904463970661163,
+      "max": 0.18954737534746527,
+      "n_missing": 2452,
+      "n_outside": 0,
+      "range": [
+        -1.0,
+        1.0
+      ]
+    },
+    "bsi_late_noscreen": {
+      "min": -0.3649327377206646,
+      "max": 0.2164253598690033,
+      "n_missing": 2452,
+      "n_outside": 0,
+      "range": [
+        -1.0,
+        1.0
+      ]
+    },
+    "lst_early": {
+      "min": 19.19700687236852,
+      "max": 49.47955889561597,
+      "n_missing": 373,
+      "n_outside": 0,
+      "range": [
+        15.0,
+        65.0
+      ]
+    },
+    "lst_late": {
+      "min": 17.126938878273478,
+      "max": 50.17191181463354,
+      "n_missing": 17,
+      "n_outside": 0,
+      "range": [
+        15.0,
+        65.0
+      ]
+    },
+    "bheight_2016": {
+      "min": 0.5234375,
+      "max": 46.28491554797535,
+      "n_missing": 7330,
+      "n_outside": 0,
+      "range": [
+        0.0,
+        150.0
+      ]
+    },
+    "bheight_2023": {
+      "min": 0.40625,
+      "max": 43.70359375,
+      "n_missing": 6563,
+      "n_outside": 0,
+      "range": [
+        0.0,
+        150.0
+      ]
+    },
+    "pop_2016": {
+      "min": 0.0,
+      "max": 7009.672805786133,
+      "n_missing": 0,
+      "n_outside": 0,
+      "range": [
+        0.0,
+        Infinity
+      ]
+    },
+    "pop_2023": {
+      "min": 0.0,
+      "max": 8039.790435791016,
+      "n_missing": 0,
+      "n_outside": 0,
+      "range": [
+        0.0,
+        Infinity
+      ]
+    },
+    "dist_ocean_m": {
+      "min": 0.0,
+      "max": 32900.0,
+      "n_missing": 0,
+      "n_outside": 0,
+      "range": [
+        0.0,
+        Infinity
+      ]
+    },
+    "dist_lagoon_m": {
+      "min": 0.0,
+      "max": 21674.870241826135,
+      "n_missing": 0,
+      "n_outside": 0,
+      "range": [
+        0.0,
+        Infinity
+      ]
+    },
+    "dist_major_road_m": {
+      "min": 0.031042978258378574,
+      "max": 34449.203211425556,
+      "n_missing": 0,
+      "n_outside": 0,
+      "range": [
+        0.0,
+        Infinity
+      ]
+    }
+  },
+  "lagos_population_lga_sum": {
+    "2016": 10703709.18094145,
+    "2023": 12457091.807069886
+  },
+  "lga_pop_growth_2016_2023": {
+    "min": 0.15675887254677345,
+    "median": 0.16463027210571868,
+    "max": 0.18730260311649327
+  },
+  "figures": [
+    "building_share_change.png",
+    "ndvi_change_screened.png",
+    "population_2023.png",
+    "relative_lst_change.png",
+    "relative_ndvi_change.png",
+    "relative_ndvi_change_noscreen.png"
+  ]
+}

@@ -21,17 +21,16 @@ from pathlib import Path
 
 import numpy as np
 
-ROOT = Path(__file__).resolve().parents[2]
-RAW = ROOT / "data" / "raw"
+from lagos_heat.common import (
+    LAGOS_BBOX, PC_STAC, RAW, ROOT, UTM31N, HTTPRangeFile, fetch, http_opener, pc_client,
+)
+
 RESULTS = ROOT / "docs" / "phase0_results.md"
 
-PC_STAC = "https://planetarycomputer.microsoft.com/api/stac/v1"
-LAGOS_BBOX = (2.70, 6.35, 4.40, 6.75)  # lon/lat, generous box around Lagos State
 TEST_BBOX = (3.33, 6.48, 3.38, 6.53)  # central mainland Lagos, about 5.5 x 5.5 km
 # Urban fringe, Ibeju-Lekki, about 2.2 x 2.2 km. Placed at 3.96-3.98 E (not centred on
 # 3.95 E) so it falls inside a single Open Buildings Temporal GeoTIFF tile.
 FRINGE_BBOX = (3.96, 6.44, 3.98, 6.46)
-UTM31N = "EPSG:32631"
 SEASONS = {
     "2017": "2016-12-01/2017-02-28",
     "2025": "2024-12-01/2025-02-28",
@@ -61,107 +60,6 @@ def run_safely(fn):
         res["errors"].append(f"{type(exc).__name__}: {exc}")
         res["errors"].append(traceback.format_exc(limit=3))
         return res
-
-
-def fetch(url, dest=None):
-    """GET a URL with requests; return bytes, or stream to dest and return its path."""
-    import requests
-
-    with requests.get(url, timeout=300, stream=dest is not None) as r:
-        r.raise_for_status()
-        if dest is None:
-            return r.content
-        dest.parent.mkdir(parents=True, exist_ok=True)
-        with open(dest, "wb") as f:
-            for chunk in r.iter_content(1 << 20):
-                f.write(chunk)
-        return dest
-
-
-class HTTPRangeFile(io.RawIOBase):
-    """Read-only, seekable view of a remote file using HTTP Range requests.
-
-    Lets rasterio read windows of a remote GeoTIFF through requests instead of
-    GDAL's curl (see note in check_lga_boundaries). Reads are served from
-    512 KiB blocks cached per URL. Only works if the server honours Range.
-    """
-
-    BLOCK = 1 << 19
-    session = None
-    _sizes: dict = {}
-    _cache: dict = {}
-    bytes_fetched = 0
-
-    def __init__(self, url):
-        import requests
-
-        self.url, self.pos = url, 0
-        if HTTPRangeFile.session is None:
-            HTTPRangeFile.session = requests.Session()
-        if url not in self._sizes:
-            r = self.session.head(url, allow_redirects=True, timeout=60)
-            r.raise_for_status()
-            self._sizes[url] = int(r.headers["Content-Length"])
-        self.size = self._sizes[url]
-
-    def readable(self):
-        return True
-
-    def seekable(self):
-        return True
-
-    def tell(self):
-        return self.pos
-
-    def seek(self, offset, whence=0):
-        self.pos = {0: offset, 1: self.pos + offset, 2: self.size + offset}[whence]
-        return self.pos
-
-    def _block(self, i):
-        key = (self.url, i)
-        if key not in self._cache:
-            start = i * self.BLOCK
-            end = min(start + self.BLOCK, self.size) - 1
-            r = self.session.get(self.url, headers={"Range": f"bytes={start}-{end}"}, timeout=120)
-            if r.status_code != 206:
-                raise OSError(f"Range request not honoured (HTTP {r.status_code}): {self.url}")
-            self._cache[key] = r.content
-            HTTPRangeFile.bytes_fetched += len(r.content)
-        return self._cache[key]
-
-    def read(self, n=-1):
-        if n is None or n < 0:
-            n = self.size - self.pos
-        n = min(n, self.size - self.pos)
-        if n <= 0:
-            return b""
-        out, p, end = bytearray(), self.pos, self.pos + n
-        while p < end:
-            i = p // self.BLOCK
-            chunk = self._block(i)[p - i * self.BLOCK : p - i * self.BLOCK + (end - p)]
-            out += chunk
-            p += len(chunk)
-        self.pos = p
-        return bytes(out)
-
-    def readinto(self, b):
-        data = self.read(len(b))
-        b[: len(data)] = data
-        return len(data)
-
-
-def http_opener(path, mode="rb"):
-    """rasterio `opener` for https URLs. rasterio probes with a dummy path first."""
-    if not str(path).startswith("http"):
-        raise FileNotFoundError(path)
-    return HTTPRangeFile(path)
-
-
-def pc_client():
-    import planetary_computer
-    import pystac_client
-
-    return pystac_client.Client.open(PC_STAC, modifier=planetary_computer.sign_inplace)
 
 
 def collection_extent(client, collection_id):

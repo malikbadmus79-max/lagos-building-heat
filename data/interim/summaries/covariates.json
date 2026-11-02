@@ -1,0 +1,44 @@
+{
+  "water": {
+    "items": [
+      "ESA_WorldCover_10m_2021_v200_N06E003",
+      "ESA_WorldCover_10m_2021_v200_N06E000"
+    ],
+    "extent_utm": [
+      451500.0,
+      689000.0,
+      666500.0,
+      756000.0
+    ],
+    "nodata_pixels": 0,
+    "ocean_km2": 3965.63,
+    "lagoon_km2": 704.485,
+    "n_lagoon_bodies": 2,
+    "other_water_km2": 29.4625
+  },
+  "water_rules": {
+    "erosion_m": 1500,
+    "lagoon_min_km2": 5.0,
+    "res_m": 50
+  },
+  "osm_source": "https://overpass-api.de/api/interpreter",
+  "osm_timestamp_roads": "2026-11-01T08:10:36Z",
+  "osm_timestamp_industrial": "2026-11-01T08:11:38Z",
+  "road_classes": [
+    "motorway",
+    "trunk",
+    "primary"
+  ],
+  "n_road_ways": 1419,
+  "road_km_by_class": {
+    "motorway": 264.2,
+    "primary": 778.5,
+    "trunk": 714.5
+  },
+  "n_industrial_polygons": 286,
+  "industrial_km2": 75.73517432136273,
+  "cells_with_industrial": 768,
+  "dist_ocean_m_max": 32900.0,
+  "dist_lagoon_m_max": 21674.870241826135,
+  "dist_major_road_m_max": 34449.203211425556
+}

@@ -1,0 +1,179 @@
+{
+  "core_rule": "GHSL built-up share >= threshold in both 2015 and 2020",
+  "n_core_cells": {
+    ">0.9 (requested)": 0,
+    ">=0.6": 228,
+    ">=0.7": 32
+  },
+  "protected_areas": [
+    {
+      "osm_id": 797720562,
+      "name": "unnamed OSM way 797720562",
+      "area_ha": 1649.426755825238,
+      "lon": 3.6441,
+      "lat": 6.6421,
+      "tree_px_20m": 40335
+    },
+    {
+      "osm_id": 312105197,
+      "name": "Lekki Conservation Center",
+      "area_ha": 63.45586953614021,
+      "lon": 3.5356,
+      "lat": 6.4361,
+      "tree_px_20m": 1407
+    },
+    {
+      "osm_id": 4174539,
+      "name": "Omu creek",
+      "area_ha": 641.897222598485,
+      "lon": 3.7265,
+      "lat": 6.4951,
+      "tree_px_20m": 618
+    },
+    {
+      "osm_id": 1502890121,
+      "name": "Lekki Reserve",
+      "area_ha": 0.22320155873328748,
+      "lon": 3.7172,
+      "lat": 6.4685,
+      "tree_px_20m": 1
+    },
+    {
+      "osm_id": 317758857,
+      "name": "Ojomu Central Mosque",
+      "area_ha": 0.05536171329208003,
+      "lon": 3.5194,
+      "lat": 6.453,
+      "tree_px_20m": 0
+    },
+    {
+      "osm_id": 533395529,
+      "name": "R\u00e9serve naturelle",
+      "area_ha": 0.1241990402018406,
+      "lon": 2.652,
+      "lat": 6.5579,
+      "tree_px_20m": 0
+    },
+    {
+      "osm_id": 533395531,
+      "name": "R\u00e9serve naturelle",
+      "area_ha": 0.2359220264047047,
+      "lon": 2.6521,
+      "lat": 6.5573,
+      "tree_px_20m": 0
+    },
+    {
+      "osm_id": 533395530,
+      "name": "R\u00e9serve naturelle",
+      "area_ha": 0.22730064506524514,
+      "lon": 2.6529,
+      "lat": 6.558,
+      "tree_px_20m": 0
+    },
+    {
+      "osm_id": 595597232,
+      "name": "unnamed OSM way 595597232",
+      "area_ha": 0.6460481481715091,
+      "lon": 3.4234,
+      "lat": 6.4384,
+      "tree_px_20m": 0
+    },
+    {
+      "osm_id": 533395532,
+      "name": "R\u00e9serve naturelle",
+      "area_ha": 0.4117512971391965,
+      "lon": 2.6524,
+      "lat": 6.5577,
+      "tree_px_20m": 0
+    }
+  ],
+  "masks_px": {
+    "land": 7773750,
+    "built_core_ghsl>=0.6": 142500,
+    "built_core_ghsl>=0.7": 20000,
+    "trees: Omu creek": 618,
+    "trees: Lekki Conservation Center": 1407,
+    "trees: unnamed OSM way 797720562": 40335
+  },
+  "dates_per_period": {
+    "early": 19,
+    "late": 31
+  },
+  "median_over_dates": {
+    "early": {
+      "land median": 0.3524,
+      "built_core_ghsl>=0.6 median": 0.0261,
+      "built_core_ghsl>=0.7 median": 0.0183,
+      "trees: Omu creek median": 0.396,
+      "trees: Lekki Conservation Center median": 0.3546,
+      "trees: unnamed OSM way 797720562 median": 0.4934
+    },
+    "late": {
+      "land median": 0.3987,
+      "built_core_ghsl>=0.6 median": 0.0384,
+      "built_core_ghsl>=0.7 median": 0.0302,
+      "trees: Omu creek median": 0.5509,
+      "trees: Lekki Conservation Center median": 0.5689,
+      "trees: unnamed OSM way 797720562 median": 0.5874
+    }
+  },
+  "range_over_dates": {
+    "early": {
+      "land median": [
+        0.1666,
+        0.5903
+      ],
+      "built_core_ghsl>=0.6 median": [
+        -0.0207,
+        0.1071
+      ],
+      "built_core_ghsl>=0.7 median": [
+        -0.0277,
+        0.1136
+      ],
+      "trees: Omu creek median": [
+        0.2835,
+        0.67315
+      ],
+      "trees: Lekki Conservation Center median": [
+        0.0729,
+        0.7903
+      ],
+      "trees: unnamed OSM way 797720562 median": [
+        0.3264,
+        0.7195
+      ]
+    },
+    "late": {
+      "land median": [
+        0.1958,
+        0.621
+      ],
+      "built_core_ghsl>=0.6 median": [
+        -0.0569,
+        0.0975
+      ],
+      "built_core_ghsl>=0.7 median": [
+        -0.0702,
+        0.08625
+      ],
+      "trees: Omu creek median": [
+        0.27345,
+        0.73905
+      ],
+      "trees: Lekki Conservation Center median": [
+        0.3126,
+        0.76355
+      ],
+      "trees: unnamed OSM way 797720562 median": [
+        0.3588,
+        0.7125
+      ]
+    }
+  },
+  "scenes_with_metadata_checked": 191,
+  "scenes_metadata_offset_counts": {
+    "-1000.0": 118,
+    "NaN": 73
+  }
+}

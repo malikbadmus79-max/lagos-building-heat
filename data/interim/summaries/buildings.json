@@ -1,0 +1,59 @@
+{
+  "open_buildings": {
+    "2016": {
+      "n_tiles": 58,
+      "n_tiles_intersecting_lagos": 58,
+      "mb_fetched": 427.29472,
+      "seconds_this_run": 0
+    },
+    "2023": {
+      "n_tiles": 58,
+      "n_tiles_intersecting_lagos": 58,
+      "mb_fetched": 493.355008,
+      "seconds_this_run": 0
+    }
+  },
+  "read_resolution_m": 4.0,
+  "presence_threshold": 0.5,
+  "total_mb_fetched": 920.6497280000001,
+  "limit": null,
+  "ob_2016": {
+    "cells_no_data": 0,
+    "coverage_min": 1.0,
+    "cells_coverage_below_1": 0,
+    "cells_overlap_approx": 54,
+    "bshare_mean_land_cells": 0.0764839351521781,
+    "bheight_min": 0.5234375,
+    "bheight_max": 46.28491554797535,
+    "tile_height_max": 97.90625
+  },
+  "ob_2023": {
+    "cells_no_data": 0,
+    "coverage_min": 1.0,
+    "cells_coverage_below_1": 0,
+    "cells_overlap_approx": 54,
+    "bshare_mean_land_cells": 0.09951010705479064,
+    "bheight_min": 0.40625,
+    "bheight_max": 43.70359375,
+    "tile_height_max": 97.5234375
+  },
+  "ghsl_2015": {
+    "min": 0.0,
+    "max": 0.759048,
+    "mean_land_cells": 0.13458433048044516,
+    "npix_min": 20.0,
+    "npix_max": 30.0
+  },
+  "ghsl_2020": {
+    "min": 0.0,
+    "max": 0.759048,
+    "mean_land_cells": 0.13991291661848002,
+    "npix_min": 20.0,
+    "npix_max": 30.0
+  },
+  "cross_check_pearson_land_cells": {
+    "ob2016_vs_ghsl2015": 0.95670727984762,
+    "ob2023_vs_ghsl2020": 0.9576613605847238,
+    "n_cells": 12438
+  }
+}

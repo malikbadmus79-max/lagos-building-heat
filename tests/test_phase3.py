@@ -104,3 +104,16 @@ def test_keep_manual_columns_preserves_entries():
     assert out["human_agrees_with_ai"].tolist() == ["", "yes", ""]
     assert out["agrees_with_data"].tolist() == ["", "", ""]
     assert v.keep_manual_columns(new, None)["seen_2023"].tolist() == ["", "", ""]
+
+
+def test_numbers_skip_urls_and_iso_dates():
+    toks = tf.numbers("See https://x.org/2026/05/22/a-27000-b (accessed 2026-11-03), 27,233 cases.")
+    assert [t[0] for t in toks] == ["27,233"]
+
+
+def test_trace_skips_fenced_code_and_marks_cited():
+    lines = ["Text with 5 items.", "```", "python step 1", "```", "Cited 20,000 trees."]
+    spec = [("Text with", [("label", "count")]),
+            ("Cited", [("cited", "https://example.org", "20,000 trees")])]
+    out, untraced = tf.trace(lines, spec, [])
+    assert untraced == [] and out["match"].tolist() == ["n/a", "cited"]

@@ -41,6 +41,9 @@ OUT = PROCESSED / "phase3_findings_trace.csv"
 NUM = re.compile(r"(?<![\w.])[−-]?\d{1,3}(?:,\d{3})+(?:\.\d+)?(?![\w])"
                  r"|(?<![\w.])[−-]?\d+(?:\.\d+)?(?![\w])")
 CODE = re.compile(r"`[^`]*`")
+URL = re.compile(r"https?://\S+")
+ISO_DATE = re.compile(r"\b\d{4}-\d{2}-\d{2}\b")  # access dates: not quantities
+ALL_OUT = PROCESSED / "findings_trace.csv"
 TRANSFORMS = {"x": lambda v: v, "pp": lambda v: 100 * v, "pct": lambda v: 100 * v,
               "neg": lambda v: -v, "km": lambda v: v / 1000}
 
@@ -49,7 +52,8 @@ TRANSFORMS = {"x": lambda v: v, "pp": lambda v: 100 * v, "pct": lambda v: 100 * 
 def numbers(line):
     """Numeric tokens of a markdown line, inline code removed: [(text, value, decimals)]."""
     out = []
-    for t in NUM.findall(CODE.sub("", line)):
+    line = ISO_DATE.sub("", URL.sub("", CODE.sub("", line)))
+    for t in NUM.findall(line):
         s = t.replace("−", "-").replace(",", "")
         dec = len(s.split(".")[1]) if "." in s else 0
         out.append((t, float(s), dec))
@@ -126,6 +130,15 @@ def resolve(src):
     if kind == "derived":
         _, desc, fn, files = src
         return float(fn()), files, desc
+    if kind == "jsonf":
+        _, name, path, tr = src
+        o = json.loads((ROOT / "data/interim/summaries" / name).read_text())
+        for k in path.split("/"):
+            o = o[int(k)] if isinstance(o, list) else o[k]
+        return TRANSFORMS[tr](float(o)), f"data/interim/summaries/{name}", path + _tr(tr)
+    if kind == "cited":
+        _, url, phrase = src
+        return None, url, f'external source; text: "{phrase}"'
     if kind == "label":
         return None, "", src[1]
     raise ValueError(kind)
@@ -452,10 +465,19 @@ def find_line(lines, key):
     return hits[0]
 
 
-def trace(lines=None):
+def trace(lines=None, spec=None, claims=None):
     lines = lines if lines is not None else DRAFT.read_text(encoding="utf-8").splitlines()
-    rows, used = [], set()
-    for key, sources in SPEC:
+    spec = SPEC if spec is None else spec
+    claims = CLAIMS if claims is None else claims
+    fence, in_code = False, set()  # lines inside fenced code blocks (commands) are skipped
+    for i, l in enumerate(lines):
+        if l.strip().startswith("```"):
+            fence = not fence
+            in_code.add(i)
+        elif fence:
+            in_code.add(i)
+    rows, used = [], set(in_code)
+    for key, sources in spec:
         i = find_line(lines, key)
         used.add(i)
         toks = numbers(lines[i])
@@ -464,12 +486,12 @@ def trace(lines=None):
         for k, ((text, val, d), src) in enumerate(zip(toks, sources), 1):
             sval, f, loc = resolve(src)
             kind = src[0]
-            ok = "n/a" if kind == "label" else ("yes" if matches(val, d, sval) else "no")
+            ok = {"label": "n/a", "cited": "cited"}.get(kind) or                 ("yes" if matches(val, d, sval) else "no")
             rows.append({"line": i + 1, "position": k, "text": text, "value": val,
                          "kind": kind, "source_file": f, "locator": loc,
                          "source_value": sval, "match": ok})
     untraced = [(i + 1, t[0]) for i, l in enumerate(lines) if i not in used for t in numbers(l)]
-    for key, phrase, desc, fn in CLAIMS:
+    for key, phrase, desc, fn in claims:
         i = find_line(lines, key)
         if phrase not in lines[i]:
             raise KeyError(f"claim {phrase!r} not on line {i + 1}")
@@ -480,16 +502,13 @@ def trace(lines=None):
     return out, untraced
 
 
-def main():
-    from lagos_heat.validate import write_summary
-
-    out, untraced = trace()
-    out.to_csv(OUT, index=False)
+def summarise(out, untraced, doc):
     num = out[out["kind"] != "word claim"]
-    summ = {
-        "draft": "docs/findings_draft.md", "numbers": int(len(num)),
+    return {
+        "document": doc, "numbers": int(len(num)),
         "by_kind": num["kind"].value_counts().to_dict(),
-        "numbers_checked": int((num["match"] != "n/a").sum()),
+        "numbers_checked": int(num["match"].isin(["yes", "no"]).sum()),
+        "numbers_cited_external": int((num["match"] == "cited").sum()),
         "numbers_matched": int((num["match"] == "yes").sum()),
         "labels_not_checked": int((num["match"] == "n/a").sum()),
         "word_claims": int((out["kind"] == "word claim").sum()),
@@ -498,8 +517,36 @@ def main():
         "mismatches": out.loc[out["match"] == "no", ["line", "text", "locator",
                                                        "source_value"]].to_dict(orient="records"),
     }
+
+
+def main():
+    from lagos_heat.trace_docs import DOCS
+    from lagos_heat.validate import write_summary
+
+    out, untraced = trace()
+    out.to_csv(OUT, index=False)  # Phase 3 trace of the draft, kept as before
+    summ = summarise(out, untraced, "docs/findings_draft.md")
+    summ["draft"] = summ.pop("document")
     write_summary("findings_trace", summ)
-    print(json.dumps(summ, indent=1, default=str))
+    frames, per_doc = [out.assign(document="docs/findings_draft.md")], [summ]
+    for doc, (spec, claims) in DOCS.items():
+        lines = (ROOT / doc).read_text(encoding="utf-8").splitlines()
+        o, u = trace(lines, spec, claims)
+        frames.append(o.assign(document=doc))
+        per_doc.append(summarise(o, u, doc))
+    allout = pd.concat(frames, ignore_index=True)
+    allout.insert(0, "document", allout.pop("document"))
+    allout.to_csv(ALL_OUT, index=False)
+    p4 = ROOT / "data/interim/summaries/phase4.json"
+    d = json.loads(p4.read_text())
+    d["findings_trace"] = per_doc[1:]
+    p4.write_text(json.dumps(d, indent=2, default=float))
+    for s_ in per_doc:
+        print(json.dumps({k: s_[k] for k in ("numbers", "numbers_checked", "numbers_matched",
+                                             "numbers_cited_external", "labels_not_checked",
+                                             "word_claims", "word_claims_hold", "untraced_numbers",
+                                             "mismatches") if k in s_} | {"doc": s_.get("document", s_.get("draft"))},
+                         default=str))
 
 
 if __name__ == "__main__":

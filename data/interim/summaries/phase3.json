@@ -22,7 +22,6 @@
     }
   },
   "findings_trace": {
-    "draft": "docs/findings_draft.md",
     "numbers": 344,
     "by_kind": {
       "csv": 254,
@@ -33,12 +32,14 @@
       "plan": 6
     },
     "numbers_checked": 331,
+    "numbers_cited_external": 0,
     "numbers_matched": 331,
     "labels_not_checked": 13,
     "word_claims": 9,
     "word_claims_hold": 9,
     "untraced_numbers": [],
-    "mismatches": []
+    "mismatches": [],
+    "draft": "docs/findings_draft.md"
   },
   "recompute": {
     "tolerances": {

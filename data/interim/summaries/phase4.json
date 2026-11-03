@@ -1,0 +1,560 @@
+{
+  "rules": "docs/phase4_priority_rules.md",
+  "hotspot_cells": 329,
+  "hotspot_lgas": 17,
+  "hotspot_clusters": 155,
+  "protect_rule": {
+    "veg_share_late_min": 0.5,
+    "bshare_change_min": 0.05798400000000003
+  },
+  "protect_cells": 104,
+  "protect_lgas": 10,
+  "protect_residents_in_cells": 81265.27218147367,
+  "A1_top10": [
+    {
+      "priority_rank": 1,
+      "lga": "Eti Osa",
+      "n_hotspot_cells": 56,
+      "residents_hotspot": 56760.752716213465,
+      "mean_lst_rel_change": 2.118414519452531,
+      "mean_ndvi_rel_change": -0.06395332452397656,
+      "mean_rank": 3.3333333333333335
+    },
+    {
+      "priority_rank": 2,
+      "lga": "Epe",
+      "n_hotspot_cells": 30,
+      "residents_hotspot": 35412.24371303618,
+      "mean_lst_rel_change": 2.18870730734694,
+      "mean_ndvi_rel_change": -0.08411515089570369,
+      "mean_rank": 3.3333333333333335
+    },
+    {
+      "priority_rank": 3,
+      "lga": "Oshodi/Isolo",
+      "n_hotspot_cells": 24,
+      "residents_hotspot": 77076.88831138611,
+      "mean_lst_rel_change": 1.6435044488066193,
+      "mean_ndvi_rel_change": -0.057905394644359336,
+      "mean_rank": 4.666666666666667
+    },
+    {
+      "priority_rank": 4,
+      "lga": "Alimosho",
+      "n_hotspot_cells": 74,
+      "residents_hotspot": 353967.3306543827,
+      "mean_lst_rel_change": 1.6188635276447456,
+      "mean_ndvi_rel_change": -0.0336320821187116,
+      "mean_rank": 5.666666666666667
+    },
+    {
+      "priority_rank": 5,
+      "lga": "Shomolu",
+      "n_hotspot_cells": 9,
+      "residents_hotspot": 47568.65476226807,
+      "mean_lst_rel_change": 1.8563547150360082,
+      "mean_ndvi_rel_change": -0.03180615492405163,
+      "mean_rank": 6.333333333333333
+    },
+    {
+      "priority_rank": 6,
+      "lga": "Ikorodu",
+      "n_hotspot_cells": 56,
+      "residents_hotspot": 71299.16131460667,
+      "mean_lst_rel_change": 1.5886373284016018,
+      "mean_ndvi_rel_change": -0.05119778512409887,
+      "mean_rank": 6.666666666666667
+    },
+    {
+      "priority_rank": 7,
+      "lga": "Ibeju Lekki",
+      "n_hotspot_cells": 30,
+      "residents_hotspot": 9765.343328036368,
+      "mean_lst_rel_change": 1.8343774091462464,
+      "mean_ndvi_rel_change": -0.056104564323372054,
+      "mean_rank": 7.333333333333333
+    },
+    {
+      "priority_rank": 8,
+      "lga": "Amuwo Odofin",
+      "n_hotspot_cells": 1,
+      "residents_hotspot": 1852.4250583648682,
+      "mean_lst_rel_change": 2.1032007070561187,
+      "mean_ndvi_rel_change": -0.038362751721963295,
+      "mean_rank": 8.666666666666666
+    },
+    {
+      "priority_rank": 9,
+      "lga": "Kosofe",
+      "n_hotspot_cells": 20,
+      "residents_hotspot": 93321.5899734497,
+      "mean_lst_rel_change": 1.5317050570418662,
+      "mean_ndvi_rel_change": -0.0203094382982899,
+      "mean_rank": 9.333333333333334
+    },
+    {
+      "priority_rank": 10,
+      "lga": "Mushin",
+      "n_hotspot_cells": 3,
+      "residents_hotspot": 15182.898818969727,
+      "mean_lst_rel_change": 1.7044618757400822,
+      "mean_ndvi_rel_change": -0.020847093039005993,
+      "mean_rank": 9.666666666666666
+    }
+  ],
+  "A2_top10": [
+    {
+      "priority_rank": 1,
+      "cluster": 139,
+      "lga": "Eti Osa",
+      "lgas": "Eti Osa",
+      "area_name": "Lekki Peninsula II (Chevron area)",
+      "name_note": "",
+      "n_hotspot_cells": 19,
+      "residents_hotspot": 18948.977744668722,
+      "mean_lst_rel_change": 2.666556693958461,
+      "mean_ndvi_rel_change": -0.08433308640055139,
+      "mean_rank": 12.666666666666666
+    },
+    {
+      "priority_rank": 2,
+      "cluster": 46,
+      "lga": "Epe",
+      "lgas": "Epe",
+      "area_name": "Iwaye",
+      "name_note": "",
+      "n_hotspot_cells": 5,
+      "residents_hotspot": 7489.108324050903,
+      "mean_lst_rel_change": 1.9474262533720688,
+      "mean_ndvi_rel_change": -0.08464620145940105,
+      "mean_rank": 29.666666666666668
+    },
+    {
+      "priority_rank": 3,
+      "cluster": 108,
+      "lga": "Oshodi/Isolo",
+      "lgas": "Oshodi/Isolo",
+      "area_name": "Cele",
+      "name_note": "",
+      "n_hotspot_cells": 6,
+      "residents_hotspot": 16129.53207397461,
+      "mean_lst_rel_change": 1.643404306982462,
+      "mean_ndvi_rel_change": -0.09807861330878999,
+      "mean_rank": 30.0
+    },
+    {
+      "priority_rank": 4,
+      "cluster": 148,
+      "lga": "Eti Osa",
+      "lgas": "Eti Osa",
+      "area_name": "Igbo-Efon",
+      "name_note": "",
+      "n_hotspot_cells": 5,
+      "residents_hotspot": 8139.030935287476,
+      "mean_lst_rel_change": 2.1065733143039833,
+      "mean_ndvi_rel_change": -0.06813738251190633,
+      "mean_rank": 31.333333333333332
+    },
+    {
+      "priority_rank": 5,
+      "cluster": 124,
+      "lga": "Eti Osa",
+      "lgas": "Eti Osa",
+      "area_name": "Olokonla",
+      "name_note": "",
+      "n_hotspot_cells": 6,
+      "residents_hotspot": 8980.37182044983,
+      "mean_lst_rel_change": 2.031877411727272,
+      "mean_ndvi_rel_change": -0.067575055993587,
+      "mean_rank": 32.333333333333336
+    },
+    {
+      "priority_rank": 6,
+      "cluster": 52,
+      "lga": "Epe",
+      "lgas": "Epe",
+      "area_name": "Tewon",
+      "name_note": "",
+      "n_hotspot_cells": 5,
+      "residents_hotspot": 4417.2145438194275,
+      "mean_lst_rel_change": 2.870425431391035,
+      "mean_ndvi_rel_change": -0.09787296638961532,
+      "mean_rank": 33.0
+    },
+    {
+      "priority_rank": 7,
+      "cluster": 86,
+      "lga": "Shomolu",
+      "lgas": "Shomolu",
+      "area_name": "Akoka",
+      "name_note": "",
+      "n_hotspot_cells": 8,
+      "residents_hotspot": 43915.965187072754,
+      "mean_lst_rel_change": 1.9415191712234954,
+      "mean_ndvi_rel_change": -0.0384398243120173,
+      "mean_rank": 36.333333333333336
+    },
+    {
+      "priority_rank": 8,
+      "cluster": 30,
+      "lga": "Epe",
+      "lgas": "Epe",
+      "area_name": "Poka",
+      "name_note": "",
+      "n_hotspot_cells": 4,
+      "residents_hotspot": 2844.899504840374,
+      "mean_lst_rel_change": 2.4007016259885643,
+      "mean_ndvi_rel_change": -0.10361028807097318,
+      "mean_rank": 38.666666666666664
+    },
+    {
+      "priority_rank": 9,
+      "cluster": 99,
+      "lga": "Oshodi/Isolo",
+      "lgas": "Oshodi/Isolo; Alimosho",
+      "area_name": "Isheri Osun",
+      "name_note": "",
+      "n_hotspot_cells": 5,
+      "residents_hotspot": 9160.700035095215,
+      "mean_lst_rel_change": 1.5687587585670928,
+      "mean_ndvi_rel_change": -0.09819500804172362,
+      "mean_rank": 39.666666666666664
+    },
+    {
+      "priority_rank": 10,
+      "cluster": 87,
+      "lga": "Alimosho",
+      "lgas": "Alimosho; Oshodi/Isolo",
+      "area_name": "Egbe",
+      "name_note": "",
+      "n_hotspot_cells": 9,
+      "residents_hotspot": 37926.309206962585,
+      "mean_lst_rel_change": 1.6854147433150406,
+      "mean_ndvi_rel_change": -0.05097456698326343,
+      "mean_rank": 41.333333333333336
+    }
+  ],
+  "B_top10": [
+    {
+      "priority_rank": 1,
+      "cell_id": 19365,
+      "lga": "Amuwo Odofin",
+      "area_name": "Trade Fair Complex",
+      "name_note": "",
+      "veg_share_late": 0.5456,
+      "bshare_change": 0.132992,
+      "residents_nearby": 19852.152518838644,
+      "mean_rank": 5.5
+    },
+    {
+      "priority_rank": 2,
+      "cell_id": 16780,
+      "lga": "Alimosho",
+      "area_name": "near Ijegun",
+      "name_note": "nearest named place from a wider Nominatim lookup",
+      "veg_share_late": 0.7072,
+      "bshare_change": 0.087488,
+      "residents_nearby": 15647.23573410511,
+      "mean_rank": 13.0
+    },
+    {
+      "priority_rank": 3,
+      "cell_id": 16410,
+      "lga": "Alimosho",
+      "area_name": "near Ijegun",
+      "name_note": "nearest named place from a wider Nominatim lookup",
+      "veg_share_late": 0.6944,
+      "bshare_change": 0.087424,
+      "residents_nearby": 16149.980980873108,
+      "mean_rank": 13.0
+    },
+    {
+      "priority_rank": 4,
+      "cell_id": 18994,
+      "lga": "Amuwo Odofin",
+      "area_name": "Trade Fair Complex",
+      "name_note": "",
+      "veg_share_late": 0.608,
+      "bshare_change": 0.09318399999999999,
+      "residents_nearby": 11877.48301447928,
+      "mean_rank": 15.5
+    },
+    {
+      "priority_rank": 5,
+      "cell_id": 11234,
+      "lga": "Oshodi/Isolo",
+      "area_name": "near Ikotun",
+      "name_note": "OpenStreetMap places Ikotun in Alimosho; the cell centre lies in Oshodi/Isolo in the boundary data",
+      "veg_share_late": 0.5728,
+      "bshare_change": 0.07520000000000002,
+      "residents_nearby": 24232.171316571534,
+      "mean_rank": 18.0
+    },
+    {
+      "priority_rank": 6,
+      "cell_id": 4618,
+      "lga": "Ikorodu",
+      "area_name": "near Glory Garden",
+      "name_note": "OpenStreetMap places Glory Garden in Kosofe; the cell centre lies in Ikorodu in the boundary data",
+      "veg_share_late": 0.52,
+      "bshare_change": 0.08736,
+      "residents_nearby": 11026.637964963913,
+      "mean_rank": 18.5
+    },
+    {
+      "priority_rank": 7,
+      "cell_id": 17149,
+      "lga": "Alimosho",
+      "area_name": "near Ije Ododo",
+      "name_note": "nearest named place from a wider Nominatim lookup",
+      "veg_share_late": 0.5616,
+      "bshare_change": 0.09478400000000001,
+      "residents_nearby": 8942.27194467187,
+      "mean_rank": 19.0
+    },
+    {
+      "priority_rank": 8,
+      "cell_id": 19304,
+      "lga": "Badagry",
+      "area_name": "Ijotan",
+      "name_note": "",
+      "veg_share_late": 0.5136,
+      "bshare_change": 0.07648,
+      "residents_nearby": 16391.9762506485,
+      "mean_rank": 21.0
+    },
+    {
+      "priority_rank": 9,
+      "cell_id": 17962,
+      "lga": "Eti Osa",
+      "area_name": "Olokonla",
+      "name_note": "",
+      "veg_share_late": 0.5456,
+      "bshare_change": 0.102848,
+      "residents_nearby": 8162.079355210066,
+      "mean_rank": 21.5
+    },
+    {
+      "priority_rank": 10,
+      "cell_id": 15299,
+      "lga": "Alimosho",
+      "area_name": "Ikotun",
+      "name_note": "",
+      "veg_share_late": 0.512,
+      "bshare_change": 0.07142399999999999,
+      "residents_nearby": 21158.73934955895,
+      "mean_rank": 23.5
+    }
+  ],
+  "B_by_lga": [
+    {
+      "lga": "Ikorodu",
+      "n_cells": 33,
+      "mean_bshare_change": 0.06799127272727272,
+      "max_bshare_change": 0.08736,
+      "residents_in_cells": 19090.357371374965,
+      "best_cell_rank": 6,
+      "priority_rank": 1
+    },
+    {
+      "lga": "Eti Osa",
+      "n_cells": 19,
+      "mean_bshare_change": 0.07372126315789473,
+      "max_bshare_change": 0.102848,
+      "residents_in_cells": 10641.229474410415,
+      "best_cell_rank": 9,
+      "priority_rank": 2
+    },
+    {
+      "lga": "Ibeju Lekki",
+      "n_cells": 14,
+      "mean_bshare_change": 0.08246857142857143,
+      "max_bshare_change": 0.178176,
+      "residents_in_cells": 5455.183743476868,
+      "best_cell_rank": 24,
+      "priority_rank": 3
+    },
+    {
+      "lga": "Alimosho",
+      "n_cells": 13,
+      "mean_bshare_change": 0.07368861538461538,
+      "max_bshare_change": 0.103616,
+      "residents_in_cells": 17267.856392487884,
+      "best_cell_rank": 2,
+      "priority_rank": 4
+    },
+    {
+      "lga": "Epe",
+      "n_cells": 11,
+      "mean_bshare_change": 0.06509963636363636,
+      "max_bshare_change": 0.079232,
+      "residents_in_cells": 5711.81812299788,
+      "best_cell_rank": 35,
+      "priority_rank": 5
+    },
+    {
+      "lga": "Badagry",
+      "n_cells": 6,
+      "mean_bshare_change": 0.06705066666666666,
+      "max_bshare_change": 0.07648,
+      "residents_in_cells": 11630.850880667567,
+      "best_cell_rank": 8,
+      "priority_rank": 6
+    },
+    {
+      "lga": "Kosofe",
+      "n_cells": 4,
+      "mean_bshare_change": 0.069728,
+      "max_bshare_change": 0.08128,
+      "residents_in_cells": 5525.366124153137,
+      "best_cell_rank": 19,
+      "priority_rank": 7
+    },
+    {
+      "lga": "Amuwo Odofin",
+      "n_cells": 2,
+      "mean_bshare_change": 0.113088,
+      "max_bshare_change": 0.132992,
+      "residents_in_cells": 2480.079986810684,
+      "best_cell_rank": 1,
+      "priority_rank": 8
+    },
+    {
+      "lga": "Oshodi/Isolo",
+      "n_cells": 1,
+      "mean_bshare_change": 0.07520000000000002,
+      "max_bshare_change": 0.07520000000000002,
+      "residents_in_cells": 2254.674598224461,
+      "best_cell_rank": 5,
+      "priority_rank": 9
+    },
+    {
+      "lga": "Ojo",
+      "n_cells": 1,
+      "mean_bshare_change": 0.071552,
+      "max_bshare_change": 0.071552,
+      "residents_in_cells": 1207.855486869812,
+      "best_cell_rank": 47,
+      "priority_rank": 10
+    }
+  ],
+  "findings_trace": [
+    {
+      "document": "docs/phase4_priority_rules.md",
+      "numbers": 26,
+      "by_kind": {
+        "label": 16,
+        "const": 8,
+        "derived": 2
+      },
+      "numbers_checked": 10,
+      "numbers_cited_external": 0,
+      "numbers_matched": 10,
+      "labels_not_checked": 16,
+      "word_claims": 0,
+      "word_claims_hold": 0,
+      "untraced_numbers": [],
+      "mismatches": []
+    },
+    {
+      "document": "docs/data_sources.md",
+      "numbers": 56,
+      "by_kind": {
+        "cited": 30,
+        "label": 13,
+        "const": 6,
+        "derived": 6,
+        "jsonf": 1
+      },
+      "numbers_checked": 13,
+      "numbers_cited_external": 30,
+      "numbers_matched": 13,
+      "labels_not_checked": 13,
+      "word_claims": 0,
+      "word_claims_hold": 0,
+      "untraced_numbers": [],
+      "mismatches": []
+    },
+    {
+      "document": "docs/findings.md",
+      "numbers": 401,
+      "by_kind": {
+        "csv": 267,
+        "const": 52,
+        "json": 25,
+        "derived": 21,
+        "label": 16,
+        "plan": 7,
+        "cited": 7,
+        "jsonf": 6
+      },
+      "numbers_checked": 378,
+      "numbers_cited_external": 7,
+      "numbers_matched": 378,
+      "labels_not_checked": 16,
+      "word_claims": 13,
+      "word_claims_hold": 13,
+      "untraced_numbers": [],
+      "mismatches": []
+    },
+    {
+      "document": "docs/policy_brief.md",
+      "numbers": 86,
+      "by_kind": {
+        "csv": 43,
+        "cited": 15,
+        "derived": 8,
+        "label": 6,
+        "const": 6,
+        "json": 5,
+        "jsonf": 2,
+        "plan": 1
+      },
+      "numbers_checked": 65,
+      "numbers_cited_external": 15,
+      "numbers_matched": 65,
+      "labels_not_checked": 6,
+      "word_claims": 3,
+      "word_claims_hold": 3,
+      "untraced_numbers": [],
+      "mismatches": []
+    },
+    {
+      "document": "README.md",
+      "numbers": 54,
+      "by_kind": {
+        "label": 15,
+        "derived": 14,
+        "csv": 9,
+        "const": 7,
+        "json": 4,
+        "plan": 2,
+        "cited": 2,
+        "jsonf": 1
+      },
+      "numbers_checked": 37,
+      "numbers_cited_external": 2,
+      "numbers_matched": 37,
+      "labels_not_checked": 15,
+      "word_claims": 0,
+      "word_claims_hold": 0,
+      "untraced_numbers": [],
+      "mismatches": []
+    },
+    {
+      "document": "docs/policy_context.md",
+      "numbers": 45,
+      "by_kind": {
+        "cited": 45
+      },
+      "numbers_checked": 0,
+      "numbers_cited_external": 45,
+      "numbers_matched": 0,
+      "labels_not_checked": 0,
+      "word_claims": 0,
+      "word_claims_hold": 0,
+      "untraced_numbers": [],
+      "mismatches": []
+    }
+  ]
+}

@@ -1,0 +1,705 @@
+{
+ "cluster_139": {
+  "place_id": 40509069,
+  "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+  "osm_type": "way",
+  "osm_id": 1499305395,
+  "lat": "6.4378886",
+  "lon": "3.5507842",
+  "category": "highway",
+  "type": "residential",
+  "place_rank": 26,
+  "importance": 0.053403073929961055,
+  "addresstype": "residential",
+  "name": "",
+  "display_name": "Eleganza, Lekki Peninsula II, Eti Osa, Lagos State, Nigeria",
+  "address": {
+   "suburb": "Eleganza",
+   "town": "Lekki Peninsula II",
+   "county": "Eti Osa",
+   "state": "Lagos State",
+   "ISO3166-2-lvl4": "NG-LA",
+   "country": "Nigeria",
+   "country_code": "ng"
+  },
+  "boundingbox": [
+   "6.4367174",
+   "6.4382276",
+   "3.5505287",
+   "3.5528246"
+  ]
+ },
+ "cluster_46": {
+  "place_id": 40352182,
+  "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+  "osm_type": "way",
+  "osm_id": 1128421979,
+  "lat": "6.6048087",
+  "lon": "4.0019157",
+  "category": "highway",
+  "type": "residential",
+  "place_rank": 26,
+  "importance": 0.053388335240711036,
+  "addresstype": "residential",
+  "name": "",
+  "display_name": "Iwaye, Epe, Lagos State, Nigeria",
+  "address": {
+   "village": "Iwaye",
+   "city": "Epe",
+   "state": "Lagos State",
+   "ISO3166-2-lvl4": "NG-LA",
+   "country": "Nigeria",
+   "country_code": "ng"
+  },
+  "boundingbox": [
+   "6.6046492",
+   "6.6062500",
+   "3.9982436",
+   "4.0023487"
+  ]
+ },
+ "cluster_108": {
+  "place_id": 41067744,
+  "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+  "osm_type": "way",
+  "osm_id": 741201109,
+  "lat": "6.4900811",
+  "lon": "3.3057962",
+  "category": "highway",
+  "type": "residential",
+  "place_rank": 26,
+  "importance": 0.053403073929961055,
+  "addresstype": "residential",
+  "name": "",
+  "display_name": "Victory Estate, Cele, Ago Palace, Oshodi/Isolo, Lagos State, 100263, Nigeria",
+  "address": {
+   "residential": "Victory Estate",
+   "suburb": "Cele",
+   "town": "Ago Palace",
+   "county": "Oshodi/Isolo",
+   "state": "Lagos State",
+   "ISO3166-2-lvl4": "NG-LA",
+   "postcode": "100263",
+   "country": "Nigeria",
+   "country_code": "ng"
+  },
+  "boundingbox": [
+   "6.4889226",
+   "6.4903551",
+   "3.3054505",
+   "3.3066460"
+  ]
+ },
+ "cluster_148": {
+  "place_id": 41035958,
+  "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+  "osm_type": "way",
+  "osm_id": 295026389,
+  "lat": "6.4317168",
+  "lon": "3.5168190",
+  "category": "highway",
+  "type": "tertiary",
+  "place_rank": 26,
+  "importance": 0.053403073929961055,
+  "addresstype": "tertiary",
+  "name": "Ologolo Road",
+  "display_name": "Ologolo Road, Igbo Efon, Igbo-Efon, Jakande, Eti Osa, Lagos State, 101244, Nigeria",
+  "address": {
+   "road": "Ologolo Road",
+   "residential": "Igbo Efon",
+   "suburb": "Igbo-Efon",
+   "town": "Jakande",
+   "county": "Eti Osa",
+   "state": "Lagos State",
+   "ISO3166-2-lvl4": "NG-LA",
+   "postcode": "101244",
+   "country": "Nigeria",
+   "country_code": "ng"
+  },
+  "boundingbox": [
+   "6.4316829",
+   "6.4321220",
+   "3.5148591",
+   "3.5199363"
+  ]
+ },
+ "cluster_124": {
+  "place_id": 40965388,
+  "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+  "osm_type": "way",
+  "osm_id": 444118657,
+  "lat": "6.4662746",
+  "lon": "3.6217383",
+  "category": "highway",
+  "type": "residential",
+  "place_rank": 26,
+  "importance": 0.053370834668497714,
+  "addresstype": "residential",
+  "name": "Engr. John Ehizokhale Street",
+  "display_name": "Engr. John Ehizokhale Street, Olokonla, Sangotedo, Eti Osa, Lagos State, 101245, Nigeria",
+  "address": {
+   "road": "Engr. John Ehizokhale Street",
+   "suburb": "Olokonla",
+   "town": "Sangotedo",
+   "county": "Eti Osa",
+   "state": "Lagos State",
+   "ISO3166-2-lvl4": "NG-LA",
+   "postcode": "101245",
+   "country": "Nigeria",
+   "country_code": "ng"
+  },
+  "boundingbox": [
+   "6.4661660",
+   "6.4662785",
+   "3.6195177",
+   "3.6218172"
+  ]
+ },
+ "cluster_52": {
+  "place_id": 41026981,
+  "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+  "osm_type": "way",
+  "osm_id": 283539251,
+  "lat": "6.6019397",
+  "lon": "3.9412673",
+  "category": "highway",
+  "type": "residential",
+  "place_rank": 26,
+  "importance": 0.053388335240711036,
+  "addresstype": "residential",
+  "name": "",
+  "display_name": "Tewon, Epe, Lagos State, Nigeria",
+  "address": {
+   "village": "Tewon",
+   "city": "Epe",
+   "state": "Lagos State",
+   "ISO3166-2-lvl4": "NG-LA",
+   "country": "Nigeria",
+   "country_code": "ng"
+  },
+  "boundingbox": [
+   "6.5966308",
+   "6.6022580",
+   "3.9366149",
+   "3.9418710"
+  ]
+ },
+ "cluster_86": {
+  "place_id": 40991453,
+  "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+  "osm_type": "way",
+  "osm_id": 94968519,
+  "lat": "6.5381389",
+  "lon": "3.3833177",
+  "category": "highway",
+  "type": "residential",
+  "place_rank": 26,
+  "importance": 0.053403073929961055,
+  "addresstype": "residential",
+  "name": "SOYINKA STREET",
+  "display_name": "SOYINKA STREET, Akoka, Bariga, Shomolu, Lagos State, 100233, Nigeria",
+  "address": {
+   "road": "SOYINKA STREET",
+   "residential": "Akoka",
+   "suburb": "Akoka",
+   "town": "Bariga",
+   "county": "Shomolu",
+   "state": "Lagos State",
+   "ISO3166-2-lvl4": "NG-LA",
+   "postcode": "100233",
+   "country": "Nigeria",
+   "country_code": "ng"
+  },
+  "boundingbox": [
+   "6.5379914",
+   "6.5381739",
+   "3.3831024",
+   "3.3845374"
+  ]
+ },
+ "cluster_30": {
+  "place_id": 41625210,
+  "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+  "osm_type": "way",
+  "osm_id": 1258605743,
+  "lat": "6.6258874",
+  "lon": "3.9973585",
+  "category": "highway",
+  "type": "residential",
+  "place_rank": 26,
+  "importance": 0.053388335240711036,
+  "addresstype": "residential",
+  "name": "",
+  "display_name": "Poka, Epe, Lagos State, Nigeria",
+  "address": {
+   "village": "Poka",
+   "city": "Epe",
+   "state": "Lagos State",
+   "ISO3166-2-lvl4": "NG-LA",
+   "country": "Nigeria",
+   "country_code": "ng"
+  },
+  "boundingbox": [
+   "6.6254240",
+   "6.6262672",
+   "3.9956747",
+   "3.9975618"
+  ]
+ },
+ "cluster_99": {
+  "place_id": 41145104,
+  "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+  "osm_type": "way",
+  "osm_id": 1196208295,
+  "lat": "6.5077000",
+  "lon": "3.2916927",
+  "category": "highway",
+  "type": "residential",
+  "place_rank": 26,
+  "importance": 0.053403073929961055,
+  "addresstype": "residential",
+  "name": "",
+  "display_name": "Isheri Osun, Ago Palace, Oshodi/Isolo, Lagos State, 100263, Nigeria",
+  "address": {
+   "suburb": "Isheri Osun",
+   "town": "Ago Palace",
+   "county": "Oshodi/Isolo",
+   "state": "Lagos State",
+   "ISO3166-2-lvl4": "NG-LA",
+   "postcode": "100263",
+   "country": "Nigeria",
+   "country_code": "ng"
+  },
+  "boundingbox": [
+   "6.5076134",
+   "6.5078572",
+   "3.2909198",
+   "3.2925260"
+  ]
+ },
+ "cluster_87": {
+  "place_id": 40916234,
+  "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+  "osm_type": "way",
+  "osm_id": 113526176,
+  "lat": "6.5309324",
+  "lon": "3.2815943",
+  "category": "highway",
+  "type": "residential",
+  "place_rank": 26,
+  "importance": 0.053403073929961055,
+  "addresstype": "residential",
+  "name": "",
+  "display_name": "Egbe, Ikotun, Alimosho, Lagos State, 100263, Nigeria",
+  "address": {
+   "suburb": "Egbe",
+   "town": "Ikotun",
+   "county": "Alimosho",
+   "state": "Lagos State",
+   "ISO3166-2-lvl4": "NG-LA",
+   "postcode": "100263",
+   "country": "Nigeria",
+   "country_code": "ng"
+  },
+  "boundingbox": [
+   "6.5290881",
+   "6.5332457",
+   "3.2774700",
+   "3.2851453"
+  ]
+ },
+ "cell_19365": {
+  "place_id": 41086296,
+  "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+  "osm_type": "way",
+  "osm_id": 733882973,
+  "lat": "6.4662430",
+  "lon": "3.2645325",
+  "category": "highway",
+  "type": "residential",
+  "place_rank": 26,
+  "importance": 0.053403073929961055,
+  "addresstype": "residential",
+  "name": "",
+  "display_name": "Trade Fair Complex, Festac, Amuwo Odofin, Lagos State, 102113, Nigeria",
+  "address": {
+   "suburb": "Trade Fair Complex",
+   "town": "Festac",
+   "county": "Amuwo Odofin",
+   "state": "Lagos State",
+   "ISO3166-2-lvl4": "NG-LA",
+   "postcode": "102113",
+   "country": "Nigeria",
+   "country_code": "ng"
+  },
+  "boundingbox": [
+   "6.4658430",
+   "6.4662803",
+   "3.2610288",
+   "3.2660302"
+  ]
+ },
+ "cell_16780": {
+  "place_id": 40850520,
+  "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+  "osm_type": "way",
+  "osm_id": 1472550121,
+  "lat": "6.4976088",
+  "lon": "3.2871573",
+  "category": "highway",
+  "type": "residential",
+  "place_rank": 26,
+  "importance": 0.053403073929961055,
+  "addresstype": "residential",
+  "name": "",
+  "display_name": "Alimosho, Lagos State, 102102, Nigeria",
+  "address": {
+   "county": "Alimosho",
+   "state": "Lagos State",
+   "ISO3166-2-lvl4": "NG-LA",
+   "postcode": "102102",
+   "country": "Nigeria",
+   "country_code": "ng"
+  },
+  "boundingbox": [
+   "6.4975919",
+   "6.4976612",
+   "3.2868331",
+   "3.2896516"
+  ]
+ },
+ "cell_16410": {
+  "place_id": 40980531,
+  "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+  "osm_type": "way",
+  "osm_id": 1063217740,
+  "lat": "6.5026739",
+  "lon": "3.2871239",
+  "category": "highway",
+  "type": "residential",
+  "place_rank": 26,
+  "importance": 0.053403073929961055,
+  "addresstype": "residential",
+  "name": "",
+  "display_name": "Alimosho, Lagos State, 100263, Nigeria",
+  "address": {
+   "county": "Alimosho",
+   "state": "Lagos State",
+   "ISO3166-2-lvl4": "NG-LA",
+   "postcode": "100263",
+   "country": "Nigeria",
+   "country_code": "ng"
+  },
+  "boundingbox": [
+   "6.5025341",
+   "6.5030691",
+   "3.2860621",
+   "3.2897884"
+  ]
+ },
+ "cell_18994": {
+  "place_id": 41237900,
+  "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+  "osm_type": "way",
+  "osm_id": 1266414561,
+  "lat": "6.4706295",
+  "lon": "3.2600278",
+  "category": "highway",
+  "type": "residential",
+  "place_rank": 26,
+  "importance": 0.053403073929961055,
+  "addresstype": "residential",
+  "name": "",
+  "display_name": "Trade Fair Complex, Festac, Amuwo Odofin, Lagos State, 102113, Nigeria",
+  "address": {
+   "suburb": "Trade Fair Complex",
+   "town": "Festac",
+   "county": "Amuwo Odofin",
+   "state": "Lagos State",
+   "ISO3166-2-lvl4": "NG-LA",
+   "postcode": "102113",
+   "country": "Nigeria",
+   "country_code": "ng"
+  },
+  "boundingbox": [
+   "6.4705536",
+   "6.4706402",
+   "3.2593024",
+   "3.2601204"
+  ]
+ },
+ "cell_11234": {
+  "place_id": 40968473,
+  "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+  "osm_type": "way",
+  "osm_id": 569641476,
+  "lat": "6.5656330",
+  "lon": "3.3049452",
+  "category": "highway",
+  "type": "residential",
+  "place_rank": 26,
+  "importance": 0.053403073929961055,
+  "addresstype": "residential",
+  "name": "",
+  "display_name": "Ikotun, Alimosho, Lagos State, 102213, Nigeria",
+  "address": {
+   "town": "Ikotun",
+   "county": "Alimosho",
+   "state": "Lagos State",
+   "ISO3166-2-lvl4": "NG-LA",
+   "postcode": "102213",
+   "country": "Nigeria",
+   "country_code": "ng"
+  },
+  "boundingbox": [
+   "6.5626033",
+   "6.5656330",
+   "3.3038167",
+   "3.3049452"
+  ]
+ },
+ "cell_4618": {
+  "place_id": 40664908,
+  "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+  "osm_type": "way",
+  "osm_id": 1485917413,
+  "lat": "6.6466620",
+  "lon": "3.5043056",
+  "category": "highway",
+  "type": "construction",
+  "place_rank": 26,
+  "importance": 0.05337429694056607,
+  "addresstype": "construction",
+  "name": "Fourth Mainland Road",
+  "display_name": "Fourth Mainland Road, Glory Garden, Ikorodu, Kosofe, Lagos State, 104101, Nigeria",
+  "address": {
+   "road": "Fourth Mainland Road",
+   "residential": "Glory Garden",
+   "city": "Ikorodu",
+   "county": "Kosofe",
+   "state": "Lagos State",
+   "ISO3166-2-lvl4": "NG-LA",
+   "postcode": "104101",
+   "country": "Nigeria",
+   "country_code": "ng"
+  },
+  "boundingbox": [
+   "6.6283057",
+   "6.6623970",
+   "3.3965062",
+   "3.5343127"
+  ]
+ },
+ "cell_17149": {
+  "place_id": 421786622,
+  "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+  "osm_type": "way",
+  "osm_id": 1536519851,
+  "lat": "6.4932428",
+  "lon": "3.2828738",
+  "category": "highway",
+  "type": "residential",
+  "place_rank": 26,
+  "importance": 0.053403073929961055,
+  "addresstype": "residential",
+  "name": "",
+  "display_name": "Alimosho, Lagos State, 102102, Nigeria",
+  "address": {
+   "county": "Alimosho",
+   "state": "Lagos State",
+   "ISO3166-2-lvl4": "NG-LA",
+   "postcode": "102102",
+   "country": "Nigeria",
+   "country_code": "ng"
+  },
+  "boundingbox": [
+   "6.4924725",
+   "6.4932773",
+   "3.2820007",
+   "3.2828897"
+  ]
+ },
+ "cell_19304": {
+  "place_id": 41084718,
+  "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+  "osm_type": "way",
+  "osm_id": 1386031786,
+  "lat": "6.4661865",
+  "lon": "2.9883540",
+  "category": "highway",
+  "type": "residential",
+  "place_rank": 26,
+  "importance": 0.05337333409628439,
+  "addresstype": "residential",
+  "name": "",
+  "display_name": "Ijotan, Badagry, Lagos State, 103101, Nigeria",
+  "address": {
+   "village": "Ijotan",
+   "county": "Badagry",
+   "state": "Lagos State",
+   "ISO3166-2-lvl4": "NG-LA",
+   "postcode": "103101",
+   "country": "Nigeria",
+   "country_code": "ng"
+  },
+  "boundingbox": [
+   "6.4638863",
+   "6.4699538",
+   "2.9860523",
+   "2.9885870"
+  ]
+ },
+ "cell_17962": {
+  "place_id": 40845054,
+  "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+  "osm_type": "way",
+  "osm_id": 1076782399,
+  "lat": "6.4840044",
+  "lon": "3.6127328",
+  "category": "highway",
+  "type": "residential",
+  "place_rank": 26,
+  "importance": 0.053370834668497714,
+  "addresstype": "residential",
+  "name": "",
+  "display_name": "Olokonla, Iranla, Eti Osa, Lagos State, 101245, Nigeria",
+  "address": {
+   "suburb": "Olokonla",
+   "village": "Iranla",
+   "county": "Eti Osa",
+   "state": "Lagos State",
+   "ISO3166-2-lvl4": "NG-LA",
+   "postcode": "101245",
+   "country": "Nigeria",
+   "country_code": "ng"
+  },
+  "boundingbox": [
+   "6.4839318",
+   "6.4840530",
+   "3.6122885",
+   "3.6134779"
+  ]
+ },
+ "cell_15299": {
+  "place_id": 41010309,
+  "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+  "osm_type": "way",
+  "osm_id": 1410951630,
+  "lat": "6.5158811",
+  "lon": "3.2825119",
+  "category": "highway",
+  "type": "residential",
+  "place_rank": 26,
+  "importance": 0.053403073929961055,
+  "addresstype": "residential",
+  "name": "",
+  "display_name": "Ikotun, Alimosho, Lagos State, 100263, Nigeria",
+  "address": {
+   "town": "Ikotun",
+   "county": "Alimosho",
+   "state": "Lagos State",
+   "ISO3166-2-lvl4": "NG-LA",
+   "postcode": "100263",
+   "country": "Nigeria",
+   "country_code": "ng"
+  },
+  "boundingbox": [
+   "6.5140959",
+   "6.5167909",
+   "3.2819380",
+   "3.2833812"
+  ]
+ },
+ "cell_16780_z14": {
+  "place_id": 427432621,
+  "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+  "osm_type": "node",
+  "osm_id": 501463453,
+  "lat": "6.5161550",
+  "lon": "3.2548660",
+  "category": "place",
+  "type": "suburb",
+  "place_rank": 19,
+  "importance": 0.14673640726329437,
+  "addresstype": "suburb",
+  "name": "Ijegun",
+  "display_name": "Ijegun, Ije Ododo, Alimosho, Lagos State, 102113, Nigeria",
+  "address": {
+   "suburb": "Ijegun",
+   "village": "Ije Ododo",
+   "county": "Alimosho",
+   "state": "Lagos State",
+   "ISO3166-2-lvl4": "NG-LA",
+   "postcode": "102113",
+   "country": "Nigeria",
+   "country_code": "ng"
+  },
+  "boundingbox": [
+   "6.4961550",
+   "6.5361550",
+   "3.2348660",
+   "3.2748660"
+  ]
+ },
+ "cell_16410_z14": {
+  "place_id": 427807677,
+  "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+  "osm_type": "node",
+  "osm_id": 501463453,
+  "lat": "6.5161550",
+  "lon": "3.2548660",
+  "category": "place",
+  "type": "suburb",
+  "place_rank": 19,
+  "importance": 0.14673640726329437,
+  "addresstype": "suburb",
+  "name": "Ijegun",
+  "display_name": "Ijegun, Ije Ododo, Alimosho, Lagos State, 102113, Nigeria",
+  "address": {
+   "suburb": "Ijegun",
+   "village": "Ije Ododo",
+   "county": "Alimosho",
+   "state": "Lagos State",
+   "ISO3166-2-lvl4": "NG-LA",
+   "postcode": "102113",
+   "country": "Nigeria",
+   "country_code": "ng"
+  },
+  "boundingbox": [
+   "6.4961550",
+   "6.5361550",
+   "3.2348660",
+   "3.2748660"
+  ]
+ },
+ "cell_17149_z14": {
+  "place_id": 41246458,
+  "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+  "osm_type": "node",
+  "osm_id": 7352827282,
+  "lat": "6.4991209",
+  "lon": "3.2486964",
+  "category": "place",
+  "type": "village",
+  "place_rank": 19,
+  "importance": 0.14673640726329437,
+  "addresstype": "village",
+  "name": "Ije Ododo",
+  "display_name": "Ije Ododo, Alimosho, Lagos State, 102113, Nigeria",
+  "address": {
+   "village": "Ije Ododo",
+   "county": "Alimosho",
+   "state": "Lagos State",
+   "ISO3166-2-lvl4": "NG-LA",
+   "postcode": "102113",
+   "country": "Nigeria",
+   "country_code": "ng"
+  },
+  "boundingbox": [
+   "6.4791209",
+   "6.5191209",
+   "3.2286964",
+   "3.2686964"
+  ]
+ }
+}

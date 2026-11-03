@@ -1,0 +1,17 @@
+{
+  "page": "docs/map/index.html",
+  "bytes": 508718,
+  "squares": 9157,
+  "hotspot_squares": 329,
+  "protect_squares": 104,
+  "lgas": 20,
+  "case_areas": 3,
+  "text": {
+    "per10": 0.6,
+    "hotspots": 329,
+    "residents_k": 896000,
+    "protect": 104,
+    "squares": 9157
+  },
+  "leaflet": "1.9.4"
+}

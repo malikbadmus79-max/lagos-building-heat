@@ -1,0 +1,354 @@
+line,position,text,value,kind,source_file,locator,source_value,match
+1,1,2,2.0,label,,phase number,,n/a
+3,1,500,500.0,const,data/interim/grid_spec.json,grid_spec.cell,500.0,yes
+3,2,95,95.0,plan,docs/phase2_analysis_plan.md,"text ""95% confidence interval""",95.0,yes
+3,3,5,5.0,const,src/lagos_heat/phase2.py,phase2.BLOCK,5.0,yes
+3,4,5,5.0,const,src/lagos_heat/phase2.py,phase2.BLOCK,5.0,yes
+7,1,"9,730",9730.0,json,data/interim/summaries/phase2.json,samples/base_analysis_ok,9730.0,yes
+7,2,573,573.0,json,data/interim/summaries/phase2.json,samples/removed_water_frac_gt_0_10,573.0,yes
+7,3,10,10.0,const,src/lagos_heat/phase2.py,"phase2.WATER_MAX (x100, percent)",10.0,yes
+7,4,"9,157",9157.0,json,data/interim/summaries/phase2.json,samples/main,9157.0,yes
+7,5,621,621.0,csv,data/processed/phase2_models.csv,run=H1_primary; column n_blocks,621.0,yes
+7,6,"1,097",1097.0,json,data/interim/summaries/phase2.json,samples/sandfill_candidates_in_main,1097.0,yes
+7,7,"8,060",8060.0,json,data/interim/summaries/phase2.json,samples/main_excl_sandfill,8060.0,yes
+11,1,"9,157",9157.0,csv,data/processed/phase2_models.csv,run=H1_primary; column n,9157.0,yes
+11,2,621,621.0,csv,data/processed/phase2_models.csv,run=H1_primary; column n_blocks,621.0,yes
+12,1,"8,060",8060.0,csv,data/processed/phase2_models.csv,run=H1_excl_sandfill; column n,8060.0,yes
+12,2,615,615.0,csv,data/processed/phase2_models.csv,run=H1_excl_sandfill; column n_blocks,615.0,yes
+13,1,1,1.0,const,src/lagos_heat/phase2.py,phase2.COAST_M (metres to km),1.0,yes
+13,2,"7,462",7462.0,csv,data/processed/phase2_models.csv,run=H1_excl_coast_lagoon_1km; column n,7462.0,yes
+13,3,522,522.0,csv,data/processed/phase2_models.csv,run=H1_excl_coast_lagoon_1km; column n_blocks,522.0,yes
+14,1,"8,561",8561.0,csv,data/processed/phase2_models.csv,run=H1_excl_industrial; column n,8561.0,yes
+14,2,618,618.0,csv,data/processed/phase2_models.csv,run=H1_excl_industrial; column n_blocks,618.0,yes
+15,1,250,250.0,const,src/lagos_heat/phase2.py,phase2.ROAD_M,250.0,yes
+15,2,"8,187",8187.0,csv,data/processed/phase2_models.csv,run=H1_excl_road_250m; column n,8187.0,yes
+15,3,615,615.0,csv,data/processed/phase2_models.csv,run=H1_excl_road_250m; column n_blocks,615.0,yes
+16,1,8,8.0,label,,sensor name (Landsat 8),,n/a
+16,2,3,3.0,const,src/lagos_heat/common.py,common.MIN_OBS,3.0,yes
+16,3,8,8.0,label,,sensor name (Landsat 8),,n/a
+16,4,"4,081",4081.0,csv,data/processed/phase2_models.csv,run=H1_landsat8_only; column n,4081.0,yes
+16,5,451,451.0,csv,data/processed/phase2_models.csv,run=H1_landsat8_only; column n_blocks,451.0,yes
+17,1,5,5.0,const,src/lagos_heat/phase2.py,phase2.LST_OBS_STRICT,5.0,yes
+17,2,"2,465",2465.0,csv,data/processed/phase2_models.csv,run=H1_obs_min5; column n,2465.0,yes
+17,3,320,320.0,csv,data/processed/phase2_models.csv,run=H1_obs_min5; column n_blocks,320.0,yes
+18,1,"3,053",3053.0,csv,data/processed/phase2_models.csv,run=H1_lst_early_tercile1; column n,3053.0,yes
+18,2,"3,052",3052.0,csv,data/processed/phase2_models.csv,run=H1_lst_early_tercile2; column n,3052.0,yes
+18,3,"3,052",3052.0,csv,data/processed/phase2_models.csv,run=H1_lst_early_tercile3; column n,3052.0,yes
+18,4,365,365.0,csv,data/processed/phase2_models.csv,run=H1_lst_early_tercile1; column n_blocks,365.0,yes
+18,5,463,463.0,csv,data/processed/phase2_models.csv,run=H1_lst_early_tercile2; column n_blocks,463.0,yes
+18,6,332,332.0,csv,data/processed/phase2_models.csv,run=H1_lst_early_tercile3; column n_blocks,332.0,yes
+19,1,746,746.0,csv,data/processed/phase2_models.csv,run=H2_screened_descriptive; column n,746.0,yes
+19,2,216,216.0,csv,data/processed/phase2_models.csv,run=H2_screened_descriptive; column n_blocks,216.0,yes
+23,1,0,0.0,json,data/interim/summaries/phase2.json,"bshare_change_main/p25 (x100, percentage points)",0.0,yes
+23,2,0.6,0.6,json,data/interim/summaries/phase2.json,"bshare_change_main/median (x100, percentage points)",0.6207999999999998,yes
+23,3,4.8,4.8,json,data/interim/summaries/phase2.json,"bshare_change_main/p75 (x100, percentage points)",4.812799999999999,yes
+23,4,4.8,4.8,json,data/interim/summaries/phase2.json,"bshare_change_main/iqr (x100, percentage points)",4.812799999999999,yes
+23,5,10,10.0,const,src/lagos_heat/phase2.py,"phase2.STEP (x100, percentage points)",10.0,yes
+27,1,0.005,0.005,csv,data/processed/phase2_deciles.csv,"outcome=lst_rel_change, decile=1; column mean",0.004834146825703712,yes
+27,2,−0.123,-0.123,csv,data/processed/phase2_deciles.csv,"outcome=lst_rel_change, decile=1; column ci_lo",-0.12331458004115044,yes
+27,3,0.140,0.14,csv,data/processed/phase2_deciles.csv,"outcome=lst_rel_change, decile=1; column ci_hi",0.1396330381004984,yes
+27,4,−0.7,-0.7,csv,data/processed/phase2_deciles.csv,"outcome=lst_rel_change, decile=1; column x_mean_pp",-0.6678146985041344,yes
+27,5,0.436,0.436,csv,data/processed/phase2_deciles.csv,"outcome=lst_rel_change, decile=10; column mean",0.43639062039383747,yes
+27,6,0.320,0.32,csv,data/processed/phase2_deciles.csv,"outcome=lst_rel_change, decile=10; column ci_lo",0.3196967884417942,yes
+27,7,0.550,0.55,csv,data/processed/phase2_deciles.csv,"outcome=lst_rel_change, decile=10; column ci_hi",0.5498672364281837,yes
+27,8,11.7,11.7,csv,data/processed/phase2_deciles.csv,"outcome=lst_rel_change, decile=10; column x_mean_pp",11.681879475982534,yes
+27,9,0.211,0.211,derived,data/processed/phase2_deciles.csv,lowest mean of deciles 2-9 (lst_rel_change),0.21082666473368772,yes
+27,10,0.288,0.288,derived,data/processed/phase2_deciles.csv,highest mean of deciles 2-9 (lst_rel_change),0.28816618635347896,yes
+29,1,0.579,0.579,csv,data/processed/phase2_models.csv,run=H1_primary; column per_10pp,0.579070060309045,yes
+29,2,10,10.0,const,src/lagos_heat/phase2.py,"phase2.STEP (x100, percentage points)",10.0,yes
+29,3,0.447,0.447,csv,data/processed/phase2_models.csv,run=H1_primary; column per_10pp_ci_lo,0.44707308990868216,yes
+29,4,0.711,0.711,csv,data/processed/phase2_models.csv,run=H1_primary; column per_10pp_ci_hi,0.7110670307094077,yes
+29,5,"9,157",9157.0,csv,data/processed/phase2_models.csv,run=H1_primary; column n,9157.0,yes
+31,0,interval excluding zero in all 13 H1 runs,,word claim,,H1/runs_ci_excludes_zero == H1/n_runs (phase2.json),,yes
+31,1,13,13.0,json,data/interim/summaries/phase2.json,H1/n_runs,13.0,yes
+33,1,10,10.0,const,src/lagos_heat/phase2.py,"phase2.STEP (x100, percentage points)",10.0,yes
+33,2,95,95.0,plan,docs/phase2_analysis_plan.md,"text ""95% confidence interval""",95.0,yes
+35,1,0.579,0.579,csv,data/processed/phase2_models.csv,run=H1_primary; column per_10pp,0.579070060309045,yes
+35,2,0.447,0.447,csv,data/processed/phase2_models.csv,run=H1_primary; column per_10pp_ci_lo,0.44707308990868216,yes
+35,3,0.711,0.711,csv,data/processed/phase2_models.csv,run=H1_primary; column per_10pp_ci_hi,0.7110670307094077,yes
+36,1,0.504,0.504,csv,data/processed/phase2_models.csv,run=H1_excl_sandfill; column per_10pp,0.5038352123903298,yes
+36,2,0.368,0.368,csv,data/processed/phase2_models.csv,run=H1_excl_sandfill; column per_10pp_ci_lo,0.36786952768541736,yes
+36,3,0.640,0.64,csv,data/processed/phase2_models.csv,run=H1_excl_sandfill; column per_10pp_ci_hi,0.6398008970952422,yes
+37,1,1,1.0,const,src/lagos_heat/phase2.py,phase2.COAST_M (metres to km),1.0,yes
+37,2,0.549,0.549,csv,data/processed/phase2_models.csv,run=H1_excl_coast_lagoon_1km; column per_10pp,0.5487204419505839,yes
+37,3,0.412,0.412,csv,data/processed/phase2_models.csv,run=H1_excl_coast_lagoon_1km; column per_10pp_ci_lo,0.41211274967926,yes
+37,4,0.685,0.685,csv,data/processed/phase2_models.csv,run=H1_excl_coast_lagoon_1km; column per_10pp_ci_hi,0.685328134221908,yes
+38,1,0.620,0.62,csv,data/processed/phase2_models.csv,run=H1_excl_industrial; column per_10pp,0.6200235846891599,yes
+38,2,0.474,0.474,csv,data/processed/phase2_models.csv,run=H1_excl_industrial; column per_10pp_ci_lo,0.47412518570470896,yes
+38,3,0.766,0.766,csv,data/processed/phase2_models.csv,run=H1_excl_industrial; column per_10pp_ci_hi,0.7659219836736106,yes
+39,1,250,250.0,const,src/lagos_heat/phase2.py,phase2.ROAD_M,250.0,yes
+39,2,0.595,0.595,csv,data/processed/phase2_models.csv,run=H1_excl_road_250m; column per_10pp,0.5949853747272641,yes
+39,3,0.468,0.468,csv,data/processed/phase2_models.csv,run=H1_excl_road_250m; column per_10pp_ci_lo,0.46825391436665253,yes
+39,4,0.722,0.722,csv,data/processed/phase2_models.csv,run=H1_excl_road_250m; column per_10pp_ci_hi,0.7217168350878755,yes
+40,1,8,8.0,label,,sensor name (Landsat 8),,n/a
+40,2,0.311,0.311,csv,data/processed/phase2_models.csv,run=H1_landsat8_only; column per_10pp,0.31107335708826445,yes
+40,3,0.119,0.119,csv,data/processed/phase2_models.csv,run=H1_landsat8_only; column per_10pp_ci_lo,0.11858794052889243,yes
+40,4,0.504,0.504,csv,data/processed/phase2_models.csv,run=H1_landsat8_only; column per_10pp_ci_hi,0.5035587736476365,yes
+41,1,0.536,0.536,csv,data/processed/phase2_models.csv,run=H1_obs_controls; column per_10pp,0.53638697449095,yes
+41,2,0.400,0.4,csv,data/processed/phase2_models.csv,run=H1_obs_controls; column per_10pp_ci_lo,0.3995384637310985,yes
+41,3,0.673,0.673,csv,data/processed/phase2_models.csv,run=H1_obs_controls; column per_10pp_ci_hi,0.6732354852508015,yes
+42,1,5,5.0,const,src/lagos_heat/phase2.py,phase2.LST_OBS_STRICT,5.0,yes
+42,2,0.436,0.436,csv,data/processed/phase2_models.csv,run=H1_obs_min5; column per_10pp,0.43587559891870625,yes
+42,3,0.259,0.259,csv,data/processed/phase2_models.csv,run=H1_obs_min5; column per_10pp_ci_lo,0.25900583821334494,yes
+42,4,0.613,0.613,csv,data/processed/phase2_models.csv,run=H1_obs_min5; column per_10pp_ci_hi,0.6127453596240676,yes
+43,1,0.608,0.608,csv,data/processed/phase2_models.csv,run=H1_no_baseline_lst; column per_10pp,0.608383315781277,yes
+43,2,0.470,0.47,csv,data/processed/phase2_models.csv,run=H1_no_baseline_lst; column per_10pp_ci_lo,0.4696702246203714,yes
+43,3,0.747,0.747,csv,data/processed/phase2_models.csv,run=H1_no_baseline_lst; column per_10pp_ci_hi,0.7470964069421826,yes
+44,1,1.193,1.193,csv,data/processed/phase2_models.csv,run=H1_lst_early_tercile1; column per_10pp,1.1930861299825948,yes
+44,2,0.586,0.586,csv,data/processed/phase2_models.csv,run=H1_lst_early_tercile1; column per_10pp_ci_lo,0.5859631519251994,yes
+44,3,1.800,1.8,csv,data/processed/phase2_models.csv,run=H1_lst_early_tercile1; column per_10pp_ci_hi,1.80020910803999,yes
+45,1,0.935,0.935,csv,data/processed/phase2_models.csv,run=H1_lst_early_tercile2; column per_10pp,0.9350262930577551,yes
+45,2,0.795,0.795,csv,data/processed/phase2_models.csv,run=H1_lst_early_tercile2; column per_10pp_ci_lo,0.7954417466186376,yes
+45,3,1.075,1.075,csv,data/processed/phase2_models.csv,run=H1_lst_early_tercile2; column per_10pp_ci_hi,1.0746108394968725,yes
+46,1,0.139,0.139,csv,data/processed/phase2_models.csv,run=H1_lst_early_tercile3; column per_10pp,0.13920235054875432,yes
+46,2,0.035,0.035,csv,data/processed/phase2_models.csv,run=H1_lst_early_tercile3; column per_10pp_ci_lo,0.035141395496692596,yes
+46,3,0.243,0.243,csv,data/processed/phase2_models.csv,run=H1_lst_early_tercile3; column per_10pp_ci_hi,0.24326330560081605,yes
+47,1,2015,2015.0,const,src/lagos_heat/buildings.py,buildings.GHSL_EPOCHS[0],2015.0,yes
+47,2,2020,2020.0,const,src/lagos_heat/buildings.py,buildings.GHSL_EPOCHS[1],2020.0,yes
+47,3,0.547,0.547,csv,data/processed/phase2_models.csv,run=H1_ghsl_2015_2020; column per_10pp,0.5465636608926039,yes
+47,4,0.326,0.326,csv,data/processed/phase2_models.csv,run=H1_ghsl_2015_2020; column per_10pp_ci_lo,0.3256444811868493,yes
+47,5,0.767,0.767,csv,data/processed/phase2_models.csv,run=H1_ghsl_2015_2020; column per_10pp_ci_hi,0.7674828405983585,yes
+53,1,0.024,0.024,csv,data/processed/phase2_deciles.csv,"outcome=ndvi_rel_change_p80, decile=1; column mean",0.023666950100800603,yes
+53,2,−0.033,-0.033,csv,data/processed/phase2_deciles.csv,"outcome=ndvi_rel_change_p80, decile=10; column mean",-0.032553888246665094,yes
+55,1,0.039,0.039,csv,data/processed/phase2_models.csv,run=H2_primary; column per_10pp (sign reversed in the text),0.03899013575848255,yes
+55,2,10,10.0,const,src/lagos_heat/phase2.py,"phase2.STEP (x100, percentage points)",10.0,yes
+55,3,−0.046,-0.046,csv,data/processed/phase2_models.csv,run=H2_primary; column per_10pp_ci_lo,-0.045724270808211516,yes
+55,4,−0.032,-0.032,csv,data/processed/phase2_models.csv,run=H2_primary; column per_10pp_ci_hi,-0.032256000708753584,yes
+57,0,All four H2 runs,,word claim,,H2/n_runs == 4 and all runs negative (phase2.json),,yes
+59,1,10,10.0,const,src/lagos_heat/phase2.py,"phase2.STEP (x100, percentage points)",10.0,yes
+59,2,95,95.0,plan,docs/phase2_analysis_plan.md,"text ""95% confidence interval""",95.0,yes
+61,1,−0.039,-0.039,csv,data/processed/phase2_models.csv,run=H2_primary; column per_10pp,-0.03899013575848255,yes
+61,2,−0.046,-0.046,csv,data/processed/phase2_models.csv,run=H2_primary; column per_10pp_ci_lo,-0.045724270808211516,yes
+61,3,−0.032,-0.032,csv,data/processed/phase2_models.csv,run=H2_primary; column per_10pp_ci_hi,-0.032256000708753584,yes
+62,1,−0.034,-0.034,csv,data/processed/phase2_models.csv,run=H2_excl_sandfill; column per_10pp,-0.03390825725791215,yes
+62,2,−0.040,-0.04,csv,data/processed/phase2_models.csv,run=H2_excl_sandfill; column per_10pp_ci_lo,-0.03999614045127249,yes
+62,3,−0.028,-0.028,csv,data/processed/phase2_models.csv,run=H2_excl_sandfill; column per_10pp_ci_hi,-0.027820374064551803,yes
+63,1,−0.040,-0.04,csv,data/processed/phase2_models.csv,run=H2_noscreen; column per_10pp,-0.040130409466870104,yes
+63,2,−0.048,-0.048,csv,data/processed/phase2_models.csv,run=H2_noscreen; column per_10pp_ci_lo,-0.047506473954459255,yes
+63,3,−0.033,-0.033,csv,data/processed/phase2_models.csv,run=H2_noscreen; column per_10pp_ci_hi,-0.03275434497928096,yes
+64,1,−0.034,-0.034,csv,data/processed/phase2_models.csv,run=H2_bare_control; column per_10pp,-0.03425628181491035,yes
+64,2,−0.040,-0.04,csv,data/processed/phase2_models.csv,run=H2_bare_control; column per_10pp_ci_lo,-0.04003984639825048,yes
+64,3,−0.028,-0.028,csv,data/processed/phase2_models.csv,run=H2_bare_control; column per_10pp_ci_hi,-0.028472717231570216,yes
+66,1,746,746.0,csv,data/processed/phase2_models.csv,run=H2_screened_descriptive; column n,746.0,yes
+66,2,−0.082,-0.082,csv,data/processed/phase2_models.csv,run=H2_screened_descriptive; column per_10pp,-0.08182451620623986,yes
+66,3,10,10.0,const,src/lagos_heat/phase2.py,"phase2.STEP (x100, percentage points)",10.0,yes
+66,4,−0.104,-0.104,csv,data/processed/phase2_models.csv,run=H2_screened_descriptive; column per_10pp_ci_lo,-0.10419587750523845,yes
+66,5,−0.059,-0.059,csv,data/processed/phase2_models.csv,run=H2_screened_descriptive; column per_10pp_ci_hi,-0.05945315490724126,yes
+66,6,−0.406,-0.406,csv,data/processed/phase2_models.csv,run=H2_screened_descriptive; column pearson_r,-0.40618304889906,yes
+70,1,"9,157",9157.0,csv,data/processed/phase2_h3.csv,version=p80; column n,9157.0,yes
+70,2,"2,000",2000.0,csv,data/processed/phase2_h3.csv,version=p80; column n_boot,2000.0,yes
+72,1,10,10.0,const,src/lagos_heat/phase2.py,"phase2.STEP (x100, percentage points)",10.0,yes
+74,1,0.579,0.579,csv,data/processed/phase2_h3.csv,version=p80; column coef_m1_per_10pp,0.579070060309045,yes
+74,2,0.447,0.447,csv,data/processed/phase2_h3.csv,version=p80; column coef_m1_ci_lo_per_10pp,0.44707308990868216,yes
+74,3,0.711,0.711,csv,data/processed/phase2_h3.csv,version=p80; column coef_m1_ci_hi_per_10pp,0.7110670307094077,yes
+74,4,0.277,0.277,csv,data/processed/phase2_h3.csv,version=p80; column coef_m3_per_10pp,0.2769671279695733,yes
+74,5,0.141,0.141,csv,data/processed/phase2_h3.csv,version=p80; column coef_m3_ci_lo_per_10pp,0.14118688275574381,yes
+74,6,0.413,0.413,csv,data/processed/phase2_h3.csv,version=p80; column coef_m3_ci_hi_per_10pp,0.4127473731834028,yes
+74,7,0.302,0.302,csv,data/processed/phase2_h3.csv,version=p80; column difference_per_10pp,0.3021029323394716,yes
+74,8,0.249,0.249,csv,data/processed/phase2_h3.csv,version=p80; column difference_ci_lo_per_10pp,0.24863365934840687,yes
+74,9,0.365,0.365,csv,data/processed/phase2_h3.csv,version=p80; column difference_ci_hi_per_10pp,0.36528562062243597,yes
+74,10,0.522,0.522,csv,data/processed/phase2_h3.csv,version=p80; column share,0.5217035952061513,yes
+74,11,0.403,0.403,csv,data/processed/phase2_h3.csv,version=p80; column share_ci_lo,0.4025777083445058,yes
+74,12,0.698,0.698,csv,data/processed/phase2_h3.csv,version=p80; column share_ci_hi,0.6976978267293189,yes
+75,1,0.580,0.58,csv,data/processed/phase2_h3.csv,version=noscreen; column coef_m1_per_10pp,0.5795499048334937,yes
+75,2,0.449,0.449,csv,data/processed/phase2_h3.csv,version=noscreen; column coef_m1_ci_lo_per_10pp,0.4492313739707019,yes
+75,3,0.710,0.71,csv,data/processed/phase2_h3.csv,version=noscreen; column coef_m1_ci_hi_per_10pp,0.7098684356962854,yes
+75,4,0.242,0.242,csv,data/processed/phase2_h3.csv,version=noscreen; column coef_m3_per_10pp,0.24180704873893913,yes
+75,5,0.097,0.097,csv,data/processed/phase2_h3.csv,version=noscreen; column coef_m3_ci_lo_per_10pp,0.09694382866323192,yes
+75,6,0.387,0.387,csv,data/processed/phase2_h3.csv,version=noscreen; column coef_m3_ci_hi_per_10pp,0.3866702688146464,yes
+75,7,0.338,0.338,csv,data/processed/phase2_h3.csv,version=noscreen; column difference_per_10pp,0.33774285609455457,yes
+75,8,0.275,0.275,csv,data/processed/phase2_h3.csv,version=noscreen; column difference_ci_lo_per_10pp,0.2751892626847615,yes
+75,9,0.408,0.408,csv,data/processed/phase2_h3.csv,version=noscreen; column difference_ci_hi_per_10pp,0.40791010350224655,yes
+75,10,0.583,0.583,csv,data/processed/phase2_h3.csv,version=noscreen; column share,0.5827675119566951,yes
+75,11,0.446,0.446,csv,data/processed/phase2_h3.csv,version=noscreen; column share_ci_lo,0.44556482459727215,yes
+75,12,0.802,0.802,csv,data/processed/phase2_h3.csv,version=noscreen; column share_ci_hi,0.8022065902685235,yes
+77,0,falls by about half in both versions,,word claim,,share of M1 coefficient between 0.4 and 0.6 for both versions (phase2_h3.csv),,yes
+77,1,−8.29,-8.29,csv,data/processed/phase2_h3.csv,version=p80; column ndvi_change_coef_m3,-8.289911699477164,yes
+77,2,−9.32,-9.32,csv,data/processed/phase2_h3.csv,version=p80; column ndvi_change_ci_lo_m3,-9.324925825893978,yes
+77,3,−7.25,-7.25,csv,data/processed/phase2_h3.csv,version=p80; column ndvi_change_ci_hi_m3,-7.254897573060351,yes
+77,4,−9.12,-9.12,csv,data/processed/phase2_h3.csv,version=noscreen; column ndvi_change_coef_m3,-9.124613760011083,yes
+77,5,−10.11,-10.11,csv,data/processed/phase2_h3.csv,version=noscreen; column ndvi_change_ci_lo_m3,-10.111462217880371,yes
+77,6,−8.14,-8.14,csv,data/processed/phase2_h3.csv,version=noscreen; column ndvi_change_ci_hi_m3,-8.137765302141796,yes
+81,1,2016,2016.0,const,src/lagos_heat/buildings.py,buildings.OB_YEARS[0],2016.0,yes
+85,1,10,10.0,const,src/lagos_heat/phase2.py,"phase2.STEP (x100, percentage points)",10.0,yes
+85,2,95,95.0,plan,docs/phase2_analysis_plan.md,"text ""95% confidence interval""",95.0,yes
+87,1,2016,2016.0,const,src/lagos_heat/buildings.py,buildings.OB_YEARS[0],2016.0,yes
+87,2,878,878.0,csv,data/processed/phase2_h4_groups.csv,"definition=main, group=built; column n",878.0,yes
+87,3,0.065,0.065,csv,data/processed/phase2_h4_groups.csv,"definition=main, group=built; column bshare_change_p50",0.065408,yes
+87,4,0.125,0.125,csv,data/processed/phase2_h4_groups.csv,"definition=main, group=built; column bshare_change_p90",0.12480000000000004,yes
+87,5,0.190,0.19,csv,data/processed/phase2_h4_groups.csv,"definition=main, group=built; column per_10pp",0.1897298829683901,yes
+87,6,0.021,0.021,csv,data/processed/phase2_h4_groups.csv,"definition=main, group=built; column per_10pp_ci_lo",0.020869719943988164,yes
+87,7,0.359,0.359,csv,data/processed/phase2_h4_groups.csv,"definition=main, group=built; column per_10pp_ci_hi",0.35859004599279204,yes
+88,1,"4,018",4018.0,csv,data/processed/phase2_h4_groups.csv,"definition=main, group=vegetated; column n",4018.0,yes
+88,2,0.000,0.0,csv,data/processed/phase2_h4_groups.csv,"definition=main, group=vegetated; column bshare_change_p50",0.0,yes
+88,3,0.017,0.017,csv,data/processed/phase2_h4_groups.csv,"definition=main, group=vegetated; column bshare_change_p90",0.017235200000000013,yes
+88,4,0.731,0.731,csv,data/processed/phase2_h4_groups.csv,"definition=main, group=vegetated; column per_10pp",0.7313727380823526,yes
+88,5,0.297,0.297,csv,data/processed/phase2_h4_groups.csv,"definition=main, group=vegetated; column per_10pp_ci_lo",0.2966611134788402,yes
+88,6,1.166,1.166,csv,data/processed/phase2_h4_groups.csv,"definition=main, group=vegetated; column per_10pp_ci_hi",1.166084362685865,yes
+89,1,"4,261",4261.0,csv,data/processed/phase2_h4_groups.csv,"definition=main, group=neither; column n",4261.0,yes
+89,2,0.034,0.034,csv,data/processed/phase2_h4_groups.csv,"definition=main, group=neither; column bshare_change_p50",0.03424000000000002,yes
+89,3,0.094,0.094,csv,data/processed/phase2_h4_groups.csv,"definition=main, group=neither; column bshare_change_p90",0.09356799999999998,yes
+89,4,0.653,0.653,csv,data/processed/phase2_h4_groups.csv,"definition=main, group=neither; column per_10pp",0.6532113714810923,yes
+89,5,0.508,0.508,csv,data/processed/phase2_h4_groups.csv,"definition=main, group=neither; column per_10pp_ci_lo",0.507862750521041,yes
+89,6,0.799,0.799,csv,data/processed/phase2_h4_groups.csv,"definition=main, group=neither; column per_10pp_ci_hi",0.7985599924411435,yes
+91,0,No main-sample cell meets both,,word claim,,n_cells_meeting_both_rules == 0 for definition main (phase2_h4_groups.csv),,yes
+91,1,0.065,0.065,csv,data/processed/phase2_h4_groups.csv,"definition=main, group=built; column bshare_change_p50",0.065408,yes
+91,2,6.5,6.5,csv,data/processed/phase2_h4_groups.csv,"definition=main, group=built; column bshare_change_p50 (x100, percentage points)",6.540799999999999,yes
+93,1,−0.542,-0.542,csv,data/processed/phase2_h4_groups.csv,"definition=main, group=built; column difference_per_10pp",-0.5416428551139625,yes
+93,2,10,10.0,const,src/lagos_heat/phase2.py,"phase2.STEP (x100, percentage points)",10.0,yes
+93,3,−1.008,-1.008,csv,data/processed/phase2_h4_groups.csv,"definition=main, group=built; column difference_per_10pp_ci_lo",-1.0078923759994378,yes
+93,4,−0.075,-0.075,csv,data/processed/phase2_h4_groups.csv,"definition=main, group=built; column difference_per_10pp_ci_hi",-0.07539333422848707,yes
+93,5,−0.036,-0.036,csv,data/processed/phase2_models.csv,run=H4_main_built_separate; column per_10pp,-0.035929546131832565,yes
+93,6,−0.184,-0.184,csv,data/processed/phase2_models.csv,run=H4_main_built_separate; column per_10pp_ci_lo,-0.1844333508313106,yes
+93,7,0.113,0.113,csv,data/processed/phase2_models.csv,run=H4_main_built_separate; column per_10pp_ci_hi,0.11257425856764545,yes
+93,8,0.791,0.791,csv,data/processed/phase2_models.csv,run=H4_main_vegetated_separate; column per_10pp,0.7910057435542829,yes
+93,9,0.357,0.357,csv,data/processed/phase2_models.csv,run=H4_main_vegetated_separate; column per_10pp_ci_lo,0.35650397271741263,yes
+93,10,1.226,1.226,csv,data/processed/phase2_models.csv,run=H4_main_vegetated_separate; column per_10pp_ci_hi,1.2255075143911531,yes
+95,0,six group definitions,,word claim,,6 definitions in phase2_h4_groups.csv,,yes
+95,0,excludes zero in four of the six,,word claim,,4 definitions with sign negative or positive (phase2_h4_groups.csv),,yes
+97,1,10,10.0,const,src/lagos_heat/phase2.py,"phase2.STEP (x100, percentage points)",10.0,yes
+97,2,95,95.0,plan,docs/phase2_analysis_plan.md,"text ""95% confidence interval""",95.0,yes
+99,1,0.30,0.3,const,src/lagos_heat/phase2.py,phase2.BUILT_T,0.3,yes
+99,2,0.50,0.5,const,src/lagos_heat/phase2.py,phase2.TREE_T,0.5,yes
+99,3,−0.542,-0.542,csv,data/processed/phase2_h4_groups.csv,"definition=main, group=built; column difference_per_10pp",-0.5416428551139625,yes
+99,4,−1.008,-1.008,csv,data/processed/phase2_h4_groups.csv,"definition=main, group=built; column difference_per_10pp_ci_lo",-1.0078923759994378,yes
+99,5,−0.075,-0.075,csv,data/processed/phase2_h4_groups.csv,"definition=main, group=built; column difference_per_10pp_ci_hi",-0.07539333422848707,yes
+100,1,0.20,0.2,const,src/lagos_heat/phase2.py,phase2.H4_BUILT_ALT[0],0.2,yes
+100,2,−0.547,-0.547,csv,data/processed/phase2_h4_groups.csv,"definition=built_0.20, group=built; column difference_per_10pp",-0.5474128658339533,yes
+100,3,−1.000,-1.0,csv,data/processed/phase2_h4_groups.csv,"definition=built_0.20, group=built; column difference_per_10pp_ci_lo",-1.000366958237868,yes
+100,4,−0.094,-0.094,csv,data/processed/phase2_h4_groups.csv,"definition=built_0.20, group=built; column difference_per_10pp_ci_hi",-0.09445877343003853,yes
+101,1,0.40,0.4,const,src/lagos_heat/phase2.py,phase2.H4_BUILT_ALT[1],0.4,yes
+101,2,−0.390,-0.39,csv,data/processed/phase2_h4_groups.csv,"definition=built_0.40, group=built; column difference_per_10pp",-0.3898485145923955,yes
+101,3,−0.909,-0.909,csv,data/processed/phase2_h4_groups.csv,"definition=built_0.40, group=built; column difference_per_10pp_ci_lo",-0.9090135812816069,yes
+101,4,0.129,0.129,csv,data/processed/phase2_h4_groups.csv,"definition=built_0.40, group=built; column difference_per_10pp_ci_hi",0.12931655209681586,yes
+102,1,0.40,0.4,const,src/lagos_heat/phase2.py,phase2.H4_TREE_ALT[0],0.4,yes
+102,2,−0.756,-0.756,csv,data/processed/phase2_h4_groups.csv,"definition=tree_0.40, group=built; column difference_per_10pp",-0.7556552449173735,yes
+102,3,−1.155,-1.155,csv,data/processed/phase2_h4_groups.csv,"definition=tree_0.40, group=built; column difference_per_10pp_ci_lo",-1.1549864663613283,yes
+102,4,−0.356,-0.356,csv,data/processed/phase2_h4_groups.csv,"definition=tree_0.40, group=built; column difference_per_10pp_ci_hi",-0.3563240234734186,yes
+103,1,0.60,0.6,const,src/lagos_heat/phase2.py,phase2.H4_TREE_ALT[1],0.6,yes
+103,2,−0.241,-0.241,csv,data/processed/phase2_h4_groups.csv,"definition=tree_0.60, group=built; column difference_per_10pp",-0.24149022521883798,yes
+103,3,−0.828,-0.828,csv,data/processed/phase2_h4_groups.csv,"definition=tree_0.60, group=built; column difference_per_10pp_ci_lo",-0.8281059193648984,yes
+103,4,0.345,0.345,csv,data/processed/phase2_h4_groups.csv,"definition=tree_0.60, group=built; column difference_per_10pp_ci_hi",0.3451254689272225,yes
+104,1,0.50,0.5,const,src/lagos_heat/phase2.py,phase2.VEG_T,0.5,yes
+104,2,−1.002,-1.002,csv,data/processed/phase2_h4_groups.csv,"definition=vegetated_by_veg_share_early, group=built; column difference_per_10pp",-1.0018509595693048,yes
+104,3,−1.276,-1.276,csv,data/processed/phase2_h4_groups.csv,"definition=vegetated_by_veg_share_early, group=built; column difference_per_10pp_ci_lo",-1.2759603658016259,yes
+104,4,−0.728,-0.728,csv,data/processed/phase2_h4_groups.csv,"definition=vegetated_by_veg_share_early, group=built; column difference_per_10pp_ci_hi",-0.727741553336984,yes
+106,0,half or more of the cells have no building change,,word claim,,median building change in the vegetated group == 0 (phase2_h4_groups.csv),,yes
+106,1,90,90.0,label,,percentile named by column bshare_change_p90,,n/a
+106,2,1.7,1.7,csv,data/processed/phase2_h4_groups.csv,"definition=main, group=vegetated; column bshare_change_p90 (x100, percentage points)",1.7235200000000013,yes
+112,1,0.504,0.504,csv,data/processed/phase2_models.csv,run=H1_excl_sandfill; column per_10pp,0.5038352123903298,yes
+112,2,−0.034,-0.034,csv,data/processed/phase2_models.csv,run=H2_excl_sandfill; column per_10pp,-0.03390825725791215,yes
+112,3,10,10.0,const,src/lagos_heat/phase2.py,"phase2.STEP (x100, percentage points)",10.0,yes
+113,1,1,1.0,const,src/lagos_heat/phase2.py,phase2.COAST_M (metres to km),1.0,yes
+113,2,0.549,0.549,csv,data/processed/phase2_models.csv,run=H1_excl_coast_lagoon_1km; column per_10pp,0.5487204419505839,yes
+113,3,0.412,0.412,csv,data/processed/phase2_models.csv,run=H1_excl_coast_lagoon_1km; column per_10pp_ci_lo,0.41211274967926,yes
+113,4,0.685,0.685,csv,data/processed/phase2_models.csv,run=H1_excl_coast_lagoon_1km; column per_10pp_ci_hi,0.685328134221908,yes
+114,1,0.620,0.62,csv,data/processed/phase2_models.csv,run=H1_excl_industrial; column per_10pp,0.6200235846891599,yes
+114,2,0.474,0.474,csv,data/processed/phase2_models.csv,run=H1_excl_industrial; column per_10pp_ci_lo,0.47412518570470896,yes
+114,3,0.766,0.766,csv,data/processed/phase2_models.csv,run=H1_excl_industrial; column per_10pp_ci_hi,0.7659219836736106,yes
+114,4,250,250.0,const,src/lagos_heat/phase2.py,phase2.ROAD_M,250.0,yes
+114,5,0.595,0.595,csv,data/processed/phase2_models.csv,run=H1_excl_road_250m; column per_10pp,0.5949853747272641,yes
+114,6,0.468,0.468,csv,data/processed/phase2_models.csv,run=H1_excl_road_250m; column per_10pp_ci_lo,0.46825391436665253,yes
+114,7,0.722,0.722,csv,data/processed/phase2_models.csv,run=H1_excl_road_250m; column per_10pp_ci_hi,0.7217168350878755,yes
+115,1,8,8.0,label,,sensor name (Landsat 8),,n/a
+115,2,"4,081",4081.0,csv,data/processed/phase2_models.csv,run=H1_landsat8_only; column n,4081.0,yes
+115,3,0.311,0.311,csv,data/processed/phase2_models.csv,run=H1_landsat8_only; column per_10pp,0.31107335708826445,yes
+115,4,0.119,0.119,csv,data/processed/phase2_models.csv,run=H1_landsat8_only; column per_10pp_ci_lo,0.11858794052889243,yes
+115,5,0.504,0.504,csv,data/processed/phase2_models.csv,run=H1_landsat8_only; column per_10pp_ci_hi,0.5035587736476365,yes
+117,1,0.536,0.536,csv,data/processed/phase2_models.csv,run=H1_obs_controls; column per_10pp,0.53638697449095,yes
+117,2,5,5.0,const,src/lagos_heat/phase2.py,phase2.LST_OBS_STRICT,5.0,yes
+117,3,"2,465",2465.0,csv,data/processed/phase2_models.csv,run=H1_obs_min5; column n,2465.0,yes
+117,4,0.436,0.436,csv,data/processed/phase2_models.csv,run=H1_obs_min5; column per_10pp,0.43587559891870625,yes
+118,1,0.608,0.608,csv,data/processed/phase2_models.csv,run=H1_no_baseline_lst; column per_10pp,0.608383315781277,yes
+118,2,1.193,1.193,csv,data/processed/phase2_models.csv,run=H1_lst_early_tercile1; column per_10pp,1.1930861299825948,yes
+118,3,0.935,0.935,csv,data/processed/phase2_models.csv,run=H1_lst_early_tercile2; column per_10pp,0.9350262930577551,yes
+118,4,0.139,0.139,csv,data/processed/phase2_models.csv,run=H1_lst_early_tercile3; column per_10pp,0.13920235054875432,yes
+119,1,2015,2015.0,const,src/lagos_heat/buildings.py,buildings.GHSL_EPOCHS[0],2015.0,yes
+119,2,2020,2020.0,const,src/lagos_heat/buildings.py,buildings.GHSL_EPOCHS[1],2020.0,yes
+119,3,0.547,0.547,csv,data/processed/phase2_models.csv,run=H1_ghsl_2015_2020; column per_10pp,0.5465636608926039,yes
+119,4,0.326,0.326,csv,data/processed/phase2_models.csv,run=H1_ghsl_2015_2020; column per_10pp_ci_lo,0.3256444811868493,yes
+119,5,0.767,0.767,csv,data/processed/phase2_models.csv,run=H1_ghsl_2015_2020; column per_10pp_ci_hi,0.7674828405983585,yes
+123,1,999,999.0,csv,data/processed/phase2_moran.csv,run=H1_primary; column n_perm,999.0,yes
+127,1,0.639,0.639,csv,data/processed/phase2_moran.csv,run=H1_primary; column moran_i,0.6394259390408383,yes
+127,2,0.001,0.001,csv,data/processed/phase2_moran.csv,run=H1_primary; column p_perm,0.001,yes
+127,3,"9,105",9105.0,csv,data/processed/phase2_moran.csv,run=H1_primary; column n,9105.0,yes
+127,4,52,52.0,csv,data/processed/phase2_moran.csv,run=H1_primary; column n_islands,52.0,yes
+128,1,0.532,0.532,csv,data/processed/phase2_moran.csv,run=H2_primary; column moran_i,0.5316007633719898,yes
+128,2,0.001,0.001,csv,data/processed/phase2_moran.csv,run=H2_primary; column p_perm,0.001,yes
+128,3,"9,105",9105.0,csv,data/processed/phase2_moran.csv,run=H2_primary; column n,9105.0,yes
+128,4,52,52.0,csv,data/processed/phase2_moran.csv,run=H2_primary; column n_islands,52.0,yes
+129,1,0.645,0.645,csv,data/processed/phase2_moran.csv,run=H3_M3_p80; column moran_i,0.6452339234418665,yes
+129,2,0.001,0.001,csv,data/processed/phase2_moran.csv,run=H3_M3_p80; column p_perm,0.001,yes
+129,3,"9,105",9105.0,csv,data/processed/phase2_moran.csv,run=H3_M3_p80; column n,9105.0,yes
+129,4,52,52.0,csv,data/processed/phase2_moran.csv,run=H3_M3_p80; column n_islands,52.0,yes
+131,1,2.5,2.5,derived,src/lagos_heat/phase2.py; data/interim/grid_spec.json,"phase2.BLOCK x grid cell size, in km",2.5,yes
+135,1,1.139,1.139,json,data/interim/summaries/phase2.json,exposure/quintile_cut_lst_rel_change,1.1388996482307931,yes
+135,2,0.058,0.058,json,data/interim/summaries/phase2.json,exposure/quintile_cut_bshare_change,0.05798400000000003,yes
+135,3,329,329.0,json,data/interim/summaries/phase2.json,exposure/hotspot_cells,329.0,yes
+137,1,2023,2023.0,label,,data-set name (WorldPop 2023),,n/a
+137,2,"896,165",896165.0,json,data/interim/summaries/phase2.json,exposure/worldpop2023_hotspot,896164.5627443418,yes
+137,3,8.5,8.5,json,data/interim/summaries/phase2.json,"exposure/worldpop2023_hotspot_share (x100, percent)",8.471069054719292,yes
+137,4,"10,579,120",10579120.0,json,data/interim/summaries/phase2.json,exposure/worldpop2023_main,10579120.025530688,yes
+138,1,2020,2020.0,label,,data-set name (GHS-POP 2020),,n/a
+138,2,"872,254",872254.0,json,data/interim/summaries/phase2.json,exposure/ghspop2020_hotspot,872253.6889519878,yes
+138,3,9.1,9.1,json,data/interim/summaries/phase2.json,"exposure/ghspop2020_hotspot_share (x100, percent)",9.070239846256099,yes
+138,4,"9,616,655",9616655.0,json,data/interim/summaries/phase2.json,exposure/ghspop2020_main,9616655.168297736,yes
+142,1,2023,2023.0,label,,data-set name (WorldPop 2023),,n/a
+144,1,2023,2023.0,label,,data-set name (WorldPop 2023),,n/a
+144,2,2020,2020.0,label,,data-set name (GHS-POP 2020),,n/a
+146,1,74,74.0,csv,data/processed/phase2_exposure_lga.csv,lga=Alimosho; column hotspot_cells,74.0,yes
+146,2,"353,967",353967.0,csv,data/processed/phase2_exposure_lga.csv,lga=Alimosho; column worldpop2023_hotspot,353967.3306543827,yes
+146,3,"309,957",309957.0,csv,data/processed/phase2_exposure_lga.csv,lga=Alimosho; column ghspop2020_hotspot,309957.4158149576,yes
+147,1,20,20.0,csv,data/processed/phase2_exposure_lga.csv,lga=Kosofe; column hotspot_cells,20.0,yes
+147,2,"93,322",93322.0,csv,data/processed/phase2_exposure_lga.csv,lga=Kosofe; column worldpop2023_hotspot,93321.5899734497,yes
+147,3,"118,230",118230.0,csv,data/processed/phase2_exposure_lga.csv,lga=Kosofe; column ghspop2020_hotspot,118230.43349838257,yes
+148,1,24,24.0,csv,data/processed/phase2_exposure_lga.csv,lga=Oshodi/Isolo; column hotspot_cells,24.0,yes
+148,2,"77,077",77077.0,csv,data/processed/phase2_exposure_lga.csv,lga=Oshodi/Isolo; column worldpop2023_hotspot,77076.88831138611,yes
+148,3,"93,445",93445.0,csv,data/processed/phase2_exposure_lga.csv,lga=Oshodi/Isolo; column ghspop2020_hotspot,93445.15442400798,yes
+149,1,56,56.0,csv,data/processed/phase2_exposure_lga.csv,lga=Ikorodu; column hotspot_cells,56.0,yes
+149,2,"71,299",71299.0,csv,data/processed/phase2_exposure_lga.csv,lga=Ikorodu; column worldpop2023_hotspot,71299.16131460667,yes
+149,3,"43,041",43041.0,csv,data/processed/phase2_exposure_lga.csv,lga=Ikorodu; column ghspop2020_hotspot,43040.8101778212,yes
+150,1,11,11.0,csv,data/processed/phase2_exposure_lga.csv,lga=Ifako/Ijaye; column hotspot_cells,11.0,yes
+150,2,"58,598",58598.0,csv,data/processed/phase2_exposure_lga.csv,lga=Ifako/Ijaye; column worldpop2023_hotspot,58598.125549316406,yes
+150,3,"54,660",54660.0,csv,data/processed/phase2_exposure_lga.csv,lga=Ifako/Ijaye; column ghspop2020_hotspot,54660.32743835449,yes
+156,0,the three largest are chosen,,word claim,,"3 rows with chosen == True, ranks 1-3 (phase2_case_studies.csv)",,yes
+156,1,155,155.0,json,data/interim/summaries/phase2.json,case_studies/clusters,155.0,yes
+156,2,10,10.0,csv,data/processed/phase2_case_studies.csv,rank=3; column n_cells,10.0,yes
+156,3,4,4.0,const,src/lagos_heat/phase2.py,phase2.CASE_THIRD_MIN,4.0,yes
+158,1,2023,2023.0,label,,data-set name (WorldPop 2023),,n/a
+160,1,1,1.0,csv,data/processed/phase2_case_studies.csv,rank=1; column rank,1.0,yes
+160,2,19,19.0,csv,data/processed/phase2_case_studies.csv,rank=1; column n_cells,19.0,yes
+160,3,0.245,0.245,csv,data/processed/phase2_case_studies.csv,rank=1; column mean_bshare_change,0.24518399999999999,yes
+160,4,2.667,2.667,csv,data/processed/phase2_case_studies.csv,rank=1; column mean_lst_rel_change,2.666556693958461,yes
+160,5,−0.084,-0.084,csv,data/processed/phase2_case_studies.csv,rank=1; column mean_ndvi_rel_change_p80,-0.08433308640055139,yes
+160,6,"18,949",18949.0,csv,data/processed/phase2_case_studies.csv,rank=1; column worldpop2023,18948.977744668722,yes
+160,7,3.551,3.551,csv,data/processed/phase2_case_studies.csv,rank=1; column lon,3.550806002435195,yes
+160,8,6.438,6.438,csv,data/processed/phase2_case_studies.csv,rank=1; column lat,6.437904726185949,yes
+161,1,2,2.0,csv,data/processed/phase2_case_studies.csv,rank=2; column rank,2.0,yes
+161,2,13,13.0,csv,data/processed/phase2_case_studies.csv,rank=2; column n_cells,13.0,yes
+161,3,0.107,0.107,csv,data/processed/phase2_case_studies.csv,rank=2; column mean_bshare_change,0.10706215384615386,yes
+161,4,1.628,1.628,csv,data/processed/phase2_case_studies.csv,rank=2; column mean_lst_rel_change,1.6282261724578597,yes
+161,5,−0.011,-0.011,csv,data/processed/phase2_case_studies.csv,rank=2; column mean_ndvi_rel_change_p80,-0.011300396246767538,yes
+161,6,"65,196",65196.0,csv,data/processed/phase2_case_studies.csv,rank=2; column worldpop2023,65195.59140396118,yes
+161,7,3.293,3.293,csv,data/processed/phase2_case_studies.csv,rank=2; column lon,3.292811194948651,yes
+161,8,6.643,6.643,csv,data/processed/phase2_case_studies.csv,rank=2; column lat,6.642953313394504,yes
+162,1,3,3.0,csv,data/processed/phase2_case_studies.csv,rank=3; column rank,3.0,yes
+162,2,10,10.0,csv,data/processed/phase2_case_studies.csv,rank=3; column n_cells,10.0,yes
+162,3,0.090,0.09,csv,data/processed/phase2_case_studies.csv,rank=3; column mean_bshare_change,0.0897088,yes
+162,4,1.522,1.522,csv,data/processed/phase2_case_studies.csv,rank=3; column mean_lst_rel_change,1.5223686810799997,yes
+162,5,−0.036,-0.036,csv,data/processed/phase2_case_studies.csv,rank=3; column mean_ndvi_rel_change_p80,-0.03619016004010394,yes
+162,6,"11,855",11855.0,csv,data/processed/phase2_case_studies.csv,rank=3; column worldpop2023,11855.43311882019,yes
+162,7,3.571,3.571,csv,data/processed/phase2_case_studies.csv,rank=3; column lon,3.570843333745703,yes
+162,8,6.627,6.627,csv,data/processed/phase2_case_studies.csv,rank=3; column lat,6.626985446617016,yes
+164,1,7,7.0,plan,docs/phase2_analysis_plan.md,"text ""7. **Case-study maps (7)""",7.0,yes
+168,1,0.53,0.53,derived,data/processed/phase2_moran.csv,"lowest Moran's I, 2 decimals",0.53,yes
+168,2,0.65,0.65,derived,data/processed/phase2_moran.csv,"highest Moran's I, 2 decimals",0.65,yes
+169,0,about half the primary,,word claim,,ratio H1_landsat8_only / H1_primary between 0.4 and 0.6 (phase2_models.csv),,yes
+169,1,8,8.0,label,,sensor name (Landsat 8),,n/a
+172,1,2016,2016.0,const,src/lagos_heat/buildings.py,buildings.OB_YEARS[0],2016.0,yes
+173,1,2016,2016.0,const,src/lagos_heat/buildings.py,buildings.OB_YEARS[0],2016.0,yes
+173,2,2023,2023.0,const,src/lagos_heat/buildings.py,buildings.OB_YEARS[1],2023.0,yes
+173,3,2016,2016.0,derived,src/lagos_heat/common.py,first year of the early period (common.PERIODS),2016.0,yes
+173,4,18,18.0,derived,src/lagos_heat/common.py,"last year of the early period, two digits",18.0,yes
+173,5,2023,2023.0,derived,src/lagos_heat/common.py,first year of the late period,2023.0,yes
+173,6,25,25.0,derived,src/lagos_heat/common.py,"last year of the late period, two digits",25.0,yes

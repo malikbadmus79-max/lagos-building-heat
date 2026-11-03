@@ -1,0 +1,1870 @@
+[
+ {
+  "case": 1,
+  "query": "centre_z18",
+  "lat": 6.437904726185949,
+  "lon": 3.550806002435195,
+  "zoom": 18,
+  "response": {
+   "place_id": 381504888,
+   "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+   "osm_type": "way",
+   "osm_id": 1499305395,
+   "lat": "6.4378886",
+   "lon": "3.5507842",
+   "category": "highway",
+   "type": "residential",
+   "place_rank": 26,
+   "importance": 0.053403073929961055,
+   "addresstype": "residential",
+   "name": "",
+   "display_name": "Eleganza, Lekki Peninsula II, Eti Osa, Lagos State, Nigeria",
+   "address": {
+    "suburb": "Eleganza",
+    "town": "Lekki Peninsula II",
+    "county": "Eti Osa",
+    "state": "Lagos State",
+    "ISO3166-2-lvl4": "NG-LA",
+    "country": "Nigeria",
+    "country_code": "ng"
+   },
+   "boundingbox": [
+    "6.4367174",
+    "6.4382276",
+    "3.5505287",
+    "3.5528246"
+   ]
+  }
+ },
+ {
+  "case": 1,
+  "query": "centre_z16",
+  "lat": 6.437904726185949,
+  "lon": 3.550806002435195,
+  "zoom": 16,
+  "response": {
+   "place_id": 41252916,
+   "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+   "osm_type": "way",
+   "osm_id": 1499305395,
+   "lat": "6.4378886",
+   "lon": "3.5507842",
+   "category": "highway",
+   "type": "residential",
+   "place_rank": 26,
+   "importance": 0.053403073929961055,
+   "addresstype": "residential",
+   "name": "",
+   "display_name": "Eleganza, Lekki Peninsula II, Eti Osa, Lagos State, Nigeria",
+   "address": {
+    "suburb": "Eleganza",
+    "town": "Lekki Peninsula II",
+    "county": "Eti Osa",
+    "state": "Lagos State",
+    "ISO3166-2-lvl4": "NG-LA",
+    "country": "Nigeria",
+    "country_code": "ng"
+   },
+   "boundingbox": [
+    "6.4367174",
+    "6.4382276",
+    "3.5505287",
+    "3.5528246"
+   ]
+  }
+ },
+ {
+  "case": 1,
+  "query": "centre_z14",
+  "lat": 6.437904726185949,
+  "lon": 3.550806002435195,
+  "zoom": 14,
+  "response": {
+   "place_id": 427993471,
+   "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+   "osm_type": "node",
+   "osm_id": 14169008685,
+   "lat": "6.4467593",
+   "lon": "3.5448689",
+   "category": "place",
+   "type": "suburb",
+   "place_rank": 19,
+   "importance": 0.14673640726329437,
+   "addresstype": "suburb",
+   "name": "Eleganza",
+   "display_name": "Eleganza, Lekki Peninsula II, Eti Osa, Lagos State, Nigeria",
+   "address": {
+    "suburb": "Eleganza",
+    "town": "Lekki Peninsula II",
+    "county": "Eti Osa",
+    "state": "Lagos State",
+    "ISO3166-2-lvl4": "NG-LA",
+    "country": "Nigeria",
+    "country_code": "ng"
+   },
+   "boundingbox": [
+    "6.4267593",
+    "6.4667593",
+    "3.5248689",
+    "3.5648689"
+   ]
+  }
+ },
+ {
+  "case": 1,
+  "query": "cell_20910_z16",
+  "lat": 6.4478944325572,
+  "lon": 3.558432035007284,
+  "zoom": 16,
+  "response": {
+   "place_id": 40931829,
+   "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+   "osm_type": "way",
+   "osm_id": 1264379946,
+   "lat": "6.4477810",
+   "lon": "3.5584974",
+   "category": "highway",
+   "type": "residential",
+   "place_rank": 26,
+   "importance": 0.053403073929961055,
+   "addresstype": "residential",
+   "name": "",
+   "display_name": "Eleganza, Ajah, Eti Osa, Lagos State, 101245, Nigeria",
+   "address": {
+    "suburb": "Eleganza",
+    "town": "Ajah",
+    "county": "Eti Osa",
+    "state": "Lagos State",
+    "ISO3166-2-lvl4": "NG-LA",
+    "postcode": "101245",
+    "country": "Nigeria",
+    "country_code": "ng"
+   },
+   "boundingbox": [
+    "6.4468028",
+    "6.4477810",
+    "3.5584974",
+    "3.5585403"
+   ]
+  }
+ },
+ {
+  "case": 1,
+  "query": "cell_21277_z16",
+  "lat": 6.4433862253270915,
+  "lon": 3.5448624791103667,
+  "zoom": 16,
+  "response": {
+   "place_id": 40821118,
+   "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+   "osm_type": "way",
+   "osm_id": 725745603,
+   "lat": "6.4430619",
+   "lon": "3.5449165",
+   "category": "highway",
+   "type": "residential",
+   "place_rank": 26,
+   "importance": 0.053403073929961055,
+   "addresstype": "residential",
+   "name": "",
+   "display_name": "Eleganza, Lekki Peninsula II, Eti Osa, Lagos State, Nigeria",
+   "address": {
+    "suburb": "Eleganza",
+    "town": "Lekki Peninsula II",
+    "county": "Eti Osa",
+    "state": "Lagos State",
+    "ISO3166-2-lvl4": "NG-LA",
+    "country": "Nigeria",
+    "country_code": "ng"
+   },
+   "boundingbox": [
+    "6.4419880",
+    "6.4432874",
+    "3.5433523",
+    "3.5462585"
+   ]
+  }
+ },
+ {
+  "case": 1,
+  "query": "cell_21278_z16",
+  "lat": 6.4433813784013,
+  "lon": 3.549384018785175,
+  "zoom": 16,
+  "response": {
+   "place_id": 40564102,
+   "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+   "osm_type": "way",
+   "osm_id": 694605235,
+   "lat": "6.4433574",
+   "lon": "3.5493777",
+   "category": "highway",
+   "type": "residential",
+   "place_rank": 26,
+   "importance": 0.053403073929961055,
+   "addresstype": "residential",
+   "name": "",
+   "display_name": "Lekki County Homes, Eleganza, Ajah, Eti Osa, Lagos State, Nigeria",
+   "address": {
+    "residential": "Lekki County Homes",
+    "suburb": "Eleganza",
+    "town": "Ajah",
+    "county": "Eti Osa",
+    "state": "Lagos State",
+    "ISO3166-2-lvl4": "NG-LA",
+    "country": "Nigeria",
+    "country_code": "ng"
+   },
+   "boundingbox": [
+    "6.4432040",
+    "6.4434096",
+    "3.5491817",
+    "3.5499535"
+   ]
+  }
+ },
+ {
+  "case": 1,
+  "query": "cell_21279_z16",
+  "lat": 6.443376491424411,
+  "lon": 3.553905554972911,
+  "zoom": 16,
+  "response": {
+   "place_id": 40893467,
+   "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+   "osm_type": "way",
+   "osm_id": 727644542,
+   "lat": "6.4434759",
+   "lon": "3.5541517",
+   "category": "highway",
+   "type": "residential",
+   "place_rank": 26,
+   "importance": 0.053403073929961055,
+   "addresstype": "residential",
+   "name": "",
+   "display_name": "Lekki County Homes, Eleganza, Ajah, Eti Osa, Lagos State, Nigeria",
+   "address": {
+    "residential": "Lekki County Homes",
+    "suburb": "Eleganza",
+    "town": "Ajah",
+    "county": "Eti Osa",
+    "state": "Lagos State",
+    "ISO3166-2-lvl4": "NG-LA",
+    "country": "Nigeria",
+    "country_code": "ng"
+   },
+   "boundingbox": [
+    "6.4425118",
+    "6.4438785",
+    "3.5539879",
+    "3.5545439"
+   ]
+  }
+ },
+ {
+  "case": 1,
+  "query": "cell_21280_z16",
+  "lat": 6.443371564396575,
+  "lon": 3.55842708764488,
+  "zoom": 16,
+  "response": {
+   "place_id": 40913815,
+   "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+   "osm_type": "way",
+   "osm_id": 726103750,
+   "lat": "6.4434984",
+   "lon": "3.5584054",
+   "category": "highway",
+   "type": "residential",
+   "place_rank": 26,
+   "importance": 0.053403073929961055,
+   "addresstype": "residential",
+   "name": "",
+   "display_name": "Lekki County Homes, Eleganza, Ajah, Eti Osa, Lagos State, Nigeria",
+   "address": {
+    "residential": "Lekki County Homes",
+    "suburb": "Eleganza",
+    "town": "Ajah",
+    "county": "Eti Osa",
+    "state": "Lagos State",
+    "ISO3166-2-lvl4": "NG-LA",
+    "country": "Nigeria",
+    "country_code": "ng"
+   },
+   "boundingbox": [
+    "6.4434366",
+    "6.4436217",
+    "3.5575050",
+    "3.5589915"
+   ]
+  }
+ },
+ {
+  "case": 1,
+  "query": "cell_21281_z16",
+  "lat": 6.443366597317944,
+  "lon": 3.5629486167723847,
+  "zoom": 16,
+  "response": {
+   "place_id": 40890760,
+   "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+   "osm_type": "way",
+   "osm_id": 965512909,
+   "lat": "6.4432454",
+   "lon": "3.5629557",
+   "category": "highway",
+   "type": "residential",
+   "place_rank": 26,
+   "importance": 0.053370834668497714,
+   "addresstype": "residential",
+   "name": "",
+   "display_name": "Ikota, Eleganza, Ajah, Eti Osa, Lagos State, 101245, Nigeria",
+   "address": {
+    "residential": "Ikota",
+    "suburb": "Eleganza",
+    "town": "Ajah",
+    "county": "Eti Osa",
+    "state": "Lagos State",
+    "ISO3166-2-lvl4": "NG-LA",
+    "postcode": "101245",
+    "country": "Nigeria",
+    "country_code": "ng"
+   },
+   "boundingbox": [
+    "6.4404954",
+    "6.4433027",
+    "3.5607243",
+    "3.5642702"
+   ]
+  }
+ },
+ {
+  "case": 1,
+  "query": "cell_21646_z16",
+  "lat": 6.438868149461133,
+  "lon": 3.540336152258675,
+  "zoom": 16,
+  "response": {
+   "place_id": 40766006,
+   "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+   "osm_type": "way",
+   "osm_id": 295231552,
+   "lat": "6.4388975",
+   "lon": "3.5404246",
+   "category": "highway",
+   "type": "residential",
+   "place_rank": 26,
+   "importance": 0.053403073929961055,
+   "addresstype": "residential",
+   "name": "",
+   "display_name": "Eleganza, Lekki Peninsula II, Eti Osa, Lagos State, Nigeria",
+   "address": {
+    "suburb": "Eleganza",
+    "town": "Lekki Peninsula II",
+    "county": "Eti Osa",
+    "state": "Lagos State",
+    "ISO3166-2-lvl4": "NG-LA",
+    "country": "Nigeria",
+    "country_code": "ng"
+   },
+   "boundingbox": [
+    "6.4388975",
+    "6.4397852",
+    "3.5404246",
+    "3.5410080"
+   ]
+  }
+ },
+ {
+  "case": 1,
+  "query": "cell_21647_z16",
+  "lat": 6.43886334598819,
+  "lon": 3.5448576553667737,
+  "zoom": 16,
+  "response": {
+   "place_id": 40957651,
+   "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+   "osm_type": "way",
+   "osm_id": 1228570683,
+   "lat": "6.4388741",
+   "lon": "3.5450989",
+   "category": "highway",
+   "type": "residential",
+   "place_rank": 26,
+   "importance": 0.053403073929961055,
+   "addresstype": "residential",
+   "name": "",
+   "display_name": "Eleganza, Lekki Peninsula II, Eti Osa, Lagos State, Nigeria",
+   "address": {
+    "suburb": "Eleganza",
+    "town": "Lekki Peninsula II",
+    "county": "Eti Osa",
+    "state": "Lagos State",
+    "ISO3166-2-lvl4": "NG-LA",
+    "country": "Nigeria",
+    "country_code": "ng"
+   },
+   "boundingbox": [
+    "6.4380967",
+    "6.4392974",
+    "3.5445164",
+    "3.5451347"
+   ]
+  }
+ },
+ {
+  "case": 1,
+  "query": "cell_21648_z16",
+  "lat": 6.438858502492342,
+  "lon": 3.549379155016647,
+  "zoom": 16,
+  "response": {
+   "error": "HTTPSConnectionPool(host='nominatim.openstreetmap.org', port=443): Read timed out. (read timeout=60)"
+  }
+ },
+ {
+  "case": 1,
+  "query": "cell_21649_z16",
+  "lat": 6.438853618973734,
+  "lon": 3.5539006511796005,
+  "zoom": 16,
+  "response": {
+   "place_id": 40767029,
+   "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+   "osm_type": "way",
+   "osm_id": 563343900,
+   "lat": "6.4387217",
+   "lon": "3.5537834",
+   "category": "highway",
+   "type": "residential",
+   "place_rank": 26,
+   "importance": 0.053403073929961055,
+   "addresstype": "residential",
+   "name": "",
+   "display_name": "Lekki County Homes, Eleganza, Ajah, Eti Osa, Lagos State, Nigeria",
+   "address": {
+    "residential": "Lekki County Homes",
+    "suburb": "Eleganza",
+    "town": "Ajah",
+    "county": "Eti Osa",
+    "state": "Lagos State",
+    "ISO3166-2-lvl4": "NG-LA",
+    "country": "Nigeria",
+    "country_code": "ng"
+   },
+   "boundingbox": [
+    "6.4384192",
+    "6.4387217",
+    "3.5537834",
+    "3.5542522"
+   ]
+  }
+ },
+ {
+  "case": 1,
+  "query": "cell_21650_z16",
+  "lat": 6.438848695432523,
+  "lon": 3.558422143826939,
+  "zoom": 16,
+  "response": {
+   "place_id": 40889949,
+   "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+   "osm_type": "way",
+   "osm_id": 563353710,
+   "lat": "6.4388856",
+   "lon": "3.5581528",
+   "category": "highway",
+   "type": "residential",
+   "place_rank": 26,
+   "importance": 0.053403073929961055,
+   "addresstype": "residential",
+   "name": "",
+   "display_name": "Lekki County Homes, Eleganza, Ajah, Eti Osa, Lagos State, Nigeria",
+   "address": {
+    "residential": "Lekki County Homes",
+    "suburb": "Eleganza",
+    "town": "Ajah",
+    "county": "Eti Osa",
+    "state": "Lagos State",
+    "ISO3166-2-lvl4": "NG-LA",
+    "country": "Nigeria",
+    "country_code": "ng"
+   },
+   "boundingbox": [
+    "6.4384284",
+    "6.4388856",
+    "3.5580252",
+    "3.5581528"
+   ]
+  }
+ },
+ {
+  "case": 1,
+  "query": "cell_21651_z16",
+  "lat": 6.43884373186886,
+  "lon": 3.5629436329299686,
+  "zoom": 16,
+  "response": {
+   "place_id": 41078223,
+   "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+   "osm_type": "way",
+   "osm_id": 563353711,
+   "lat": "6.4388394",
+   "lon": "3.5627482",
+   "category": "highway",
+   "type": "residential",
+   "place_rank": 26,
+   "importance": 0.053370834668497714,
+   "addresstype": "residential",
+   "name": "Otunba Olumide Osunsina Crescent",
+   "display_name": "Otunba Olumide Osunsina Crescent, Lekki County Homes, Eleganza, Ajah, Eti Osa, Lagos State, 101245, Nigeria",
+   "address": {
+    "road": "Otunba Olumide Osunsina Crescent",
+    "residential": "Lekki County Homes",
+    "suburb": "Eleganza",
+    "town": "Ajah",
+    "county": "Eti Osa",
+    "state": "Lagos State",
+    "ISO3166-2-lvl4": "NG-LA",
+    "postcode": "101245",
+    "country": "Nigeria",
+    "country_code": "ng"
+   },
+   "boundingbox": [
+    "6.4376716",
+    "6.4393534",
+    "3.5626844",
+    "3.5627755"
+   ]
+  }
+ },
+ {
+  "case": 1,
+  "query": "cell_22016_z16",
+  "lat": 6.434345265917997,
+  "lon": 3.5403313719696996,
+  "zoom": 16,
+  "response": {
+   "place_id": 40842377,
+   "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+   "osm_type": "way",
+   "osm_id": 761370293,
+   "lat": "6.4343833",
+   "lon": "3.5400188",
+   "category": "highway",
+   "type": "residential",
+   "place_rank": 26,
+   "importance": 0.053403073929961055,
+   "addresstype": "residential",
+   "name": "",
+   "display_name": "Chevron, Lekki Peninsula II, Eti Osa, Lagos State, Nigeria",
+   "address": {
+    "suburb": "Chevron",
+    "town": "Lekki Peninsula II",
+    "county": "Eti Osa",
+    "state": "Lagos State",
+    "ISO3166-2-lvl4": "NG-LA",
+    "country": "Nigeria",
+    "country_code": "ng"
+   },
+   "boundingbox": [
+    "6.4321931",
+    "6.4363869",
+    "3.5389543",
+    "3.5402584"
+   ]
+  }
+ },
+ {
+  "case": 1,
+  "query": "cell_22017_z16",
+  "lat": 6.4343404658465975,
+  "lon": 3.544852835081407,
+  "zoom": 16,
+  "response": {
+   "place_id": 40814009,
+   "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+   "osm_type": "way",
+   "osm_id": 1232843348,
+   "lat": "6.4343552",
+   "lon": "3.5448523",
+   "category": "highway",
+   "type": "residential",
+   "place_rank": 26,
+   "importance": 0.053403073929961055,
+   "addresstype": "residential",
+   "name": "",
+   "display_name": "Eleganza, Lekki Peninsula II, Eti Osa, Lagos State, Nigeria",
+   "address": {
+    "suburb": "Eleganza",
+    "town": "Lekki Peninsula II",
+    "county": "Eti Osa",
+    "state": "Lagos State",
+    "ISO3166-2-lvl4": "NG-LA",
+    "country": "Nigeria",
+    "country_code": "ng"
+   },
+   "boundingbox": [
+    "6.4342913",
+    "6.4343560",
+    "3.5428074",
+    "3.5448704"
+   ]
+  }
+ },
+ {
+  "case": 1,
+  "query": "cell_22019_z16",
+  "lat": 6.434330745720249,
+  "lon": 3.553895750901904,
+  "zoom": 16,
+  "response": {
+   "place_id": 41037590,
+   "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+   "osm_type": "way",
+   "osm_id": 563637924,
+   "lat": "6.4342522",
+   "lon": "3.5538884",
+   "category": "highway",
+   "type": "residential",
+   "place_rank": 26,
+   "importance": 0.053403073929961055,
+   "addresstype": "residential",
+   "name": "",
+   "display_name": "Eleganza, Lekki Peninsula II, Eti Osa, Lagos State, Nigeria",
+   "address": {
+    "suburb": "Eleganza",
+    "town": "Lekki Peninsula II",
+    "county": "Eti Osa",
+    "state": "Lagos State",
+    "ISO3166-2-lvl4": "NG-LA",
+    "country": "Nigeria",
+    "country_code": "ng"
+   },
+   "boundingbox": [
+    "6.4342052",
+    "6.4342651",
+    "3.5537550",
+    "3.5543759"
+   ]
+  }
+ },
+ {
+  "case": 1,
+  "query": "cell_22386_z16",
+  "lat": 6.429822381572785,
+  "lon": 3.5403265951101055,
+  "zoom": 16,
+  "response": {
+   "place_id": 40582529,
+   "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+   "osm_type": "way",
+   "osm_id": 1232843898,
+   "lat": "6.4298289",
+   "lon": "3.5403274",
+   "category": "highway",
+   "type": "residential",
+   "place_rank": 26,
+   "importance": 0.053403073929961055,
+   "addresstype": "residential",
+   "name": "",
+   "display_name": "Chevron, Lekki Peninsula II, Eti Osa, Lagos State, Nigeria",
+   "address": {
+    "suburb": "Chevron",
+    "town": "Lekki Peninsula II",
+    "county": "Eti Osa",
+    "state": "Lagos State",
+    "ISO3166-2-lvl4": "NG-LA",
+    "country": "Nigeria",
+    "country_code": "ng"
+   },
+   "boundingbox": [
+    "6.4297929",
+    "6.4298582",
+    "3.5397863",
+    "3.5409937"
+   ]
+  }
+ },
+ {
+  "case": 1,
+  "query": "cell_22387_z16",
+  "lat": 6.4298175849028665,
+  "lon": 3.5448480182541156,
+  "zoom": 16,
+  "response": {
+   "place_id": 41047521,
+   "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+   "osm_type": "way",
+   "osm_id": 964466914,
+   "lat": "6.4298167",
+   "lon": "3.5449550",
+   "category": "highway",
+   "type": "residential",
+   "place_rank": 26,
+   "importance": 0.053403073929961055,
+   "addresstype": "residential",
+   "name": "",
+   "display_name": "Eleganza, Lekki Peninsula II, Eti Osa, Lagos State, Nigeria",
+   "address": {
+    "suburb": "Eleganza",
+    "town": "Lekki Peninsula II",
+    "county": "Eti Osa",
+    "state": "Lagos State",
+    "ISO3166-2-lvl4": "NG-LA",
+    "country": "Nigeria",
+    "country_code": "ng"
+   },
+   "boundingbox": [
+    "6.4287561",
+    "6.4301714",
+    "3.5441342",
+    "3.5455316"
+   ]
+  }
+ },
+ {
+  "case": 1,
+  "query": "cell_22388_z16",
+  "lat": 6.429812748266725,
+  "lon": 3.5493694379402005,
+  "zoom": 16,
+  "response": {
+   "place_id": 40857428,
+   "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+   "osm_type": "way",
+   "osm_id": 787296062,
+   "lat": "6.4298068",
+   "lon": "3.5492183",
+   "category": "highway",
+   "type": "residential",
+   "place_rank": 26,
+   "importance": 0.053403073929961055,
+   "addresstype": "residential",
+   "name": "",
+   "display_name": "Eleganza, Lekki Peninsula II, Eti Osa, Lagos State, Nigeria",
+   "address": {
+    "suburb": "Eleganza",
+    "town": "Lekki Peninsula II",
+    "county": "Eti Osa",
+    "state": "Lagos State",
+    "ISO3166-2-lvl4": "NG-LA",
+    "country": "Nigeria",
+    "country_code": "ng"
+   },
+   "boundingbox": [
+    "6.4295131",
+    "6.4303073",
+    "3.5491928",
+    "3.5492304"
+   ]
+  }
+ },
+ {
+  "case": 1,
+  "query": "cell_22389_z16",
+  "lat": 6.429807871664511,
+  "lon": 3.553890854139669,
+  "zoom": 16,
+  "response": {
+   "place_id": 41229077,
+   "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+   "osm_type": "way",
+   "osm_id": 295082938,
+   "lat": "6.4298104",
+   "lon": "3.5542371",
+   "category": "highway",
+   "type": "residential",
+   "place_rank": 26,
+   "importance": 0.053403073929961055,
+   "addresstype": "residential",
+   "name": "Ocean Bay Drive",
+   "display_name": "Ocean Bay Drive, Ocean Bay Estate, Eleganza, Lekki Peninsula II, Eti Osa, Lagos State, Nigeria",
+   "address": {
+    "road": "Ocean Bay Drive",
+    "residential": "Ocean Bay Estate",
+    "suburb": "Eleganza",
+    "town": "Lekki Peninsula II",
+    "county": "Eti Osa",
+    "state": "Lagos State",
+    "ISO3166-2-lvl4": "NG-LA",
+    "country": "Nigeria",
+    "country_code": "ng"
+   },
+   "boundingbox": [
+    "6.4278645",
+    "6.4308451",
+    "3.5542298",
+    "3.5542414"
+   ]
+  }
+ },
+ {
+  "case": 2,
+  "query": "centre_z18",
+  "lat": 6.642953313394504,
+  "lon": 3.292811194948651,
+  "zoom": 18,
+  "response": {
+   "place_id": 40612534,
+   "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+   "osm_type": "way",
+   "osm_id": 437205776,
+   "lat": "6.6429425",
+   "lon": "3.2930054",
+   "category": "highway",
+   "type": "residential",
+   "place_rank": 26,
+   "importance": 0.05337333409628439,
+   "addresstype": "residential",
+   "name": "",
+   "display_name": "Abule Egba, Alimosho, Lagos State, 100276, Nigeria",
+   "address": {
+    "town": "Abule Egba",
+    "county": "Alimosho",
+    "state": "Lagos State",
+    "ISO3166-2-lvl4": "NG-LA",
+    "postcode": "100276",
+    "country": "Nigeria",
+    "country_code": "ng"
+   },
+   "boundingbox": [
+    "6.6421337",
+    "6.6435206",
+    "3.2929618",
+    "3.2930352"
+   ]
+  }
+ },
+ {
+  "case": 2,
+  "query": "centre_z16",
+  "lat": 6.642953313394504,
+  "lon": 3.292811194948651,
+  "zoom": 16,
+  "response": {
+   "place_id": 40612534,
+   "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+   "osm_type": "way",
+   "osm_id": 437205776,
+   "lat": "6.6429425",
+   "lon": "3.2930054",
+   "category": "highway",
+   "type": "residential",
+   "place_rank": 26,
+   "importance": 0.05337333409628439,
+   "addresstype": "residential",
+   "name": "",
+   "display_name": "Abule Egba, Alimosho, Lagos State, 100276, Nigeria",
+   "address": {
+    "town": "Abule Egba",
+    "county": "Alimosho",
+    "state": "Lagos State",
+    "ISO3166-2-lvl4": "NG-LA",
+    "postcode": "100276",
+    "country": "Nigeria",
+    "country_code": "ng"
+   },
+   "boundingbox": [
+    "6.6421337",
+    "6.6435206",
+    "3.2929618",
+    "3.2930352"
+   ]
+  }
+ },
+ {
+  "case": 2,
+  "query": "centre_z14",
+  "lat": 6.642953313394504,
+  "lon": 3.292811194948651,
+  "zoom": 14,
+  "response": {
+   "place_id": 40941634,
+   "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+   "osm_type": "node",
+   "osm_id": 501517933,
+   "lat": "6.6300260",
+   "lon": "3.2782319",
+   "category": "place",
+   "type": "suburb",
+   "place_rank": 19,
+   "importance": 0.14670666742961772,
+   "addresstype": "suburb",
+   "name": "Alimosho",
+   "display_name": "Alimosho, Abule Egba, Alimosho, Lagos State, 100276, Nigeria",
+   "address": {
+    "suburb": "Alimosho",
+    "town": "Abule Egba",
+    "county": "Alimosho",
+    "state": "Lagos State",
+    "ISO3166-2-lvl4": "NG-LA",
+    "postcode": "100276",
+    "country": "Nigeria",
+    "country_code": "ng"
+   },
+   "boundingbox": [
+    "6.6100260",
+    "6.6500260",
+    "3.2582319",
+    "3.2982319"
+   ]
+  }
+ },
+ {
+  "case": 2,
+  "query": "cell_4202_z16",
+  "lat": 6.6516493684885365,
+  "lon": 3.2962959202002513,
+  "zoom": 16,
+  "response": {
+   "place_id": 41146349,
+   "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+   "osm_type": "way",
+   "osm_id": 584832347,
+   "lat": "6.6517294",
+   "lon": "3.2963538",
+   "category": "highway",
+   "type": "residential",
+   "place_rank": 26,
+   "importance": 0.05337333409628439,
+   "addresstype": "residential",
+   "name": "",
+   "display_name": "Abule Egba, Alimosho, Lagos State, 100276, Nigeria",
+   "address": {
+    "town": "Abule Egba",
+    "county": "Alimosho",
+    "state": "Lagos State",
+    "ISO3166-2-lvl4": "NG-LA",
+    "postcode": "100276",
+    "country": "Nigeria",
+    "country_code": "ng"
+   },
+   "boundingbox": [
+    "6.6495580",
+    "6.6521479",
+    "3.2957575",
+    "3.2998082"
+   ]
+  }
+ },
+ {
+  "case": 2,
+  "query": "cell_4204_z16",
+  "lat": 6.651643867090652,
+  "lon": 3.3053430378043576,
+  "zoom": 16,
+  "response": {
+   "place_id": 41147595,
+   "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+   "osm_type": "way",
+   "osm_id": 393309198,
+   "lat": "6.6514131",
+   "lon": "3.3056685",
+   "category": "highway",
+   "type": "residential",
+   "place_rank": 26,
+   "importance": 0.05337333409628439,
+   "addresstype": "residential",
+   "name": "Alhaji Hassan Makinde Street",
+   "display_name": "Alhaji Hassan Makinde Street, Iju, Ifako/Ijaye, Lagos State, 101232, Nigeria",
+   "address": {
+    "road": "Alhaji Hassan Makinde Street",
+    "suburb": "Iju",
+    "county": "Ifako/Ijaye",
+    "state": "Lagos State",
+    "ISO3166-2-lvl4": "NG-LA",
+    "postcode": "101232",
+    "country": "Nigeria",
+    "country_code": "ng"
+   },
+   "boundingbox": [
+    "6.6495720",
+    "6.6536036",
+    "3.3043949",
+    "3.3071573"
+   ]
+  }
+ },
+ {
+  "case": 2,
+  "query": "cell_4571_z16",
+  "lat": 6.647129068372163,
+  "lon": 3.2917696911721266,
+  "zoom": 16,
+  "response": {
+   "place_id": 40900569,
+   "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+   "osm_type": "way",
+   "osm_id": 220745159,
+   "lat": "6.6468427",
+   "lon": "3.2917440",
+   "category": "highway",
+   "type": "residential",
+   "place_rank": 26,
+   "importance": 0.05337333409628439,
+   "addresstype": "residential",
+   "name": "",
+   "display_name": "Abule Egba, Alimosho, Lagos State, 100276, Nigeria",
+   "address": {
+    "town": "Abule Egba",
+    "county": "Alimosho",
+    "state": "Lagos State",
+    "ISO3166-2-lvl4": "NG-LA",
+    "postcode": "100276",
+    "country": "Nigeria",
+    "country_code": "ng"
+   },
+   "boundingbox": [
+    "6.6467633",
+    "6.6468751",
+    "3.2913870",
+    "3.2926189"
+   ]
+  }
+ },
+ {
+  "case": 2,
+  "query": "cell_4572_z16",
+  "lat": 6.647126381560399,
+  "lon": 3.296293211461279,
+  "zoom": 16,
+  "response": {
+   "place_id": 40914035,
+   "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+   "osm_type": "way",
+   "osm_id": 523099459,
+   "lat": "6.6473251",
+   "lon": "3.2961306",
+   "category": "highway",
+   "type": "primary",
+   "place_rank": 26,
+   "importance": 0.05337333409628439,
+   "addresstype": "primary",
+   "name": "",
+   "display_name": "Abule Egba, Alimosho, Lagos State, 100276, Nigeria",
+   "address": {
+    "town": "Abule Egba",
+    "county": "Alimosho",
+    "state": "Lagos State",
+    "ISO3166-2-lvl4": "NG-LA",
+    "postcode": "100276",
+    "country": "Nigeria",
+    "country_code": "ng"
+   },
+   "boundingbox": [
+    "6.6445074",
+    "6.6495586",
+    "3.2900532",
+    "3.3039545"
+   ]
+  }
+ },
+ {
+  "case": 2,
+  "query": "cell_4573_z16",
+  "lat": 6.647123653414922,
+  "lon": 3.300816729866713,
+  "zoom": 16,
+  "response": {
+   "place_id": 40648255,
+   "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+   "osm_type": "way",
+   "osm_id": 1184375681,
+   "lat": "6.6471511",
+   "lon": "3.3009555",
+   "category": "highway",
+   "type": "residential",
+   "place_rank": 26,
+   "importance": 0.05337333409628439,
+   "addresstype": "residential",
+   "name": "",
+   "display_name": "Abule Egba, Alimosho, Lagos State, 100276, Nigeria",
+   "address": {
+    "town": "Abule Egba",
+    "county": "Alimosho",
+    "state": "Lagos State",
+    "ISO3166-2-lvl4": "NG-LA",
+    "postcode": "100276",
+    "country": "Nigeria",
+    "country_code": "ng"
+   },
+   "boundingbox": [
+    "6.6468025",
+    "6.6472482",
+    "3.3007156",
+    "3.3010020"
+   ]
+  }
+ },
+ {
+  "case": 2,
+  "query": "cell_4574_z16",
+  "lat": 6.647120883935809,
+  "lon": 3.30534024635967,
+  "zoom": 16,
+  "response": {
+   "place_id": 40967934,
+   "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+   "osm_type": "way",
+   "osm_id": 16369596,
+   "lat": "6.6471126",
+   "lon": "3.3053112",
+   "category": "highway",
+   "type": "residential",
+   "place_rank": 26,
+   "importance": 0.05337333409628439,
+   "addresstype": "residential",
+   "name": "",
+   "display_name": "Abule Egba, Alimosho, Lagos State, 101232, Nigeria",
+   "address": {
+    "town": "Abule Egba",
+    "county": "Alimosho",
+    "state": "Lagos State",
+    "ISO3166-2-lvl4": "NG-LA",
+    "postcode": "101232",
+    "country": "Nigeria",
+    "country_code": "ng"
+   },
+   "boundingbox": [
+    "6.6465810",
+    "6.6487546",
+    "3.3049082",
+    "3.3054589"
+   ]
+  }
+ },
+ {
+  "case": 2,
+  "query": "cell_4941_z16",
+  "lat": 6.64260607877434,
+  "lon": 3.2917670256411,
+  "zoom": 16,
+  "response": {
+   "place_id": 40915897,
+   "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+   "osm_type": "way",
+   "osm_id": 441521820,
+   "lat": "6.6426050",
+   "lon": "3.2916581",
+   "category": "highway",
+   "type": "residential",
+   "place_rank": 26,
+   "importance": 0.05337333409628439,
+   "addresstype": "residential",
+   "name": "",
+   "display_name": "Abule Egba, Alimosho, Lagos State, 100276, Nigeria",
+   "address": {
+    "town": "Abule Egba",
+    "county": "Alimosho",
+    "state": "Lagos State",
+    "ISO3166-2-lvl4": "NG-LA",
+    "postcode": "100276",
+    "country": "Nigeria",
+    "country_code": "ng"
+   },
+   "boundingbox": [
+    "6.6419100",
+    "6.6429690",
+    "3.2915378",
+    "3.2916679"
+   ]
+  }
+ },
+ {
+  "case": 2,
+  "query": "cell_4942_z16",
+  "lat": 6.642603393806637,
+  "lon": 3.2962905046060254,
+  "zoom": 16,
+  "response": {
+   "place_id": 40620587,
+   "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+   "osm_type": "way",
+   "osm_id": 220745301,
+   "lat": "6.6425737",
+   "lon": "3.2963322",
+   "category": "highway",
+   "type": "residential",
+   "place_rank": 26,
+   "importance": 0.05337333409628439,
+   "addresstype": "residential",
+   "name": "Pipeline Road",
+   "display_name": "Pipeline Road, Abule Egba, Alimosho, Lagos State, 100276, Nigeria",
+   "address": {
+    "road": "Pipeline Road",
+    "town": "Abule Egba",
+    "county": "Alimosho",
+    "state": "Lagos State",
+    "ISO3166-2-lvl4": "NG-LA",
+    "postcode": "100276",
+    "country": "Nigeria",
+    "country_code": "ng"
+   },
+   "boundingbox": [
+    "6.6421624",
+    "6.6481885",
+    "3.2959271",
+    "3.2991534"
+   ]
+  }
+ },
+ {
+  "case": 2,
+  "query": "cell_5309_z16",
+  "lat": 6.6380883307675544,
+  "lon": 3.282717481090415,
+  "zoom": 16,
+  "response": {
+   "place_id": 40633989,
+   "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+   "osm_type": "way",
+   "osm_id": 220748433,
+   "lat": "6.6380177",
+   "lon": "3.2825691",
+   "category": "highway",
+   "type": "residential",
+   "place_rank": 26,
+   "importance": 0.05337333409628439,
+   "addresstype": "residential",
+   "name": "",
+   "display_name": "Abule Egba, Alimosho, Lagos State, 100276, Nigeria",
+   "address": {
+    "town": "Abule Egba",
+    "county": "Alimosho",
+    "state": "Lagos State",
+    "ISO3166-2-lvl4": "NG-LA",
+    "postcode": "100276",
+    "country": "Nigeria",
+    "country_code": "ng"
+   },
+   "boundingbox": [
+    "6.6364554",
+    "6.6382001",
+    "3.2824824",
+    "3.2835240"
+   ]
+  }
+ },
+ {
+  "case": 2,
+  "query": "cell_5310_z16",
+  "lat": 6.638085730198086,
+  "lon": 3.287240922440703,
+  "zoom": 16,
+  "response": {
+   "place_id": 40634028,
+   "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+   "osm_type": "way",
+   "osm_id": 441416684,
+   "lat": "6.6382236",
+   "lon": "3.2871812",
+   "category": "highway",
+   "type": "residential",
+   "place_rank": 26,
+   "importance": 0.05337333409628439,
+   "addresstype": "residential",
+   "name": "",
+   "display_name": "Abule Egba, Alimosho, Lagos State, 100276, Nigeria",
+   "address": {
+    "town": "Abule Egba",
+    "county": "Alimosho",
+    "state": "Lagos State",
+    "ISO3166-2-lvl4": "NG-LA",
+    "postcode": "100276",
+    "country": "Nigeria",
+    "country_code": "ng"
+   },
+   "boundingbox": [
+    "6.6379566",
+    "6.6384169",
+    "3.2865214",
+    "3.2876735"
+   ]
+  }
+ },
+ {
+  "case": 2,
+  "query": "cell_5311_z16",
+  "lat": 6.638083088351473,
+  "lon": 3.2917643619649515,
+  "zoom": 16,
+  "response": {
+   "place_id": 40615656,
+   "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+   "osm_type": "way",
+   "osm_id": 220738162,
+   "lat": "6.6382882",
+   "lon": "3.2917621",
+   "category": "highway",
+   "type": "residential",
+   "place_rank": 26,
+   "importance": 0.05337333409628439,
+   "addresstype": "residential",
+   "name": "",
+   "display_name": "Abule Egba, Alimosho, Lagos State, 100276, Nigeria",
+   "address": {
+    "town": "Abule Egba",
+    "county": "Alimosho",
+    "state": "Lagos State",
+    "ISO3166-2-lvl4": "NG-LA",
+    "postcode": "100276",
+    "country": "Nigeria",
+    "country_code": "ng"
+   },
+   "boundingbox": [
+    "6.6381938",
+    "6.6397156",
+    "3.2912108",
+    "3.2934016"
+   ]
+  }
+ },
+ {
+  "case": 2,
+  "query": "cell_5678_z16",
+  "lat": 6.633567893450658,
+  "lon": 3.278191499922131,
+  "zoom": 16,
+  "response": {
+   "place_id": 41072523,
+   "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+   "osm_type": "way",
+   "osm_id": 1494388349,
+   "lat": "6.6337468",
+   "lon": "3.2783950",
+   "category": "highway",
+   "type": "residential",
+   "place_rank": 26,
+   "importance": 0.05337333409628439,
+   "addresstype": "residential",
+   "name": "",
+   "display_name": "Iyana Ipaja, Abule Egba, Alimosho, Lagos State, 100276, Nigeria",
+   "address": {
+    "suburb": "Iyana Ipaja",
+    "town": "Abule Egba",
+    "county": "Alimosho",
+    "state": "Lagos State",
+    "ISO3166-2-lvl4": "NG-LA",
+    "postcode": "100276",
+    "country": "Nigeria",
+    "country_code": "ng"
+   },
+   "boundingbox": [
+    "6.6324562",
+    "6.6342664",
+    "3.2779655",
+    "3.2797442"
+   ]
+  }
+ },
+ {
+  "case": 2,
+  "query": "cell_5679_z16",
+  "lat": 6.633565335917308,
+  "lon": 3.2827149018027404,
+  "zoom": 16,
+  "response": {
+   "place_id": 41137268,
+   "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+   "osm_type": "way",
+   "osm_id": 220748458,
+   "lat": "6.6334719",
+   "lon": "3.2828004",
+   "category": "highway",
+   "type": "residential",
+   "place_rank": 26,
+   "importance": 0.05337333409628439,
+   "addresstype": "residential",
+   "name": "Segun Famuwagun Street",
+   "display_name": "Segun Famuwagun Street, Iyana Ipaja, Abule Egba, Alimosho, Lagos State, 100276, Nigeria",
+   "address": {
+    "road": "Segun Famuwagun Street",
+    "suburb": "Iyana Ipaja",
+    "town": "Abule Egba",
+    "county": "Alimosho",
+    "state": "Lagos State",
+    "ISO3166-2-lvl4": "NG-LA",
+    "postcode": "100276",
+    "country": "Nigeria",
+    "country_code": "ng"
+   },
+   "boundingbox": [
+    "6.6322834",
+    "6.6375024",
+    "3.2816854",
+    "3.2890333"
+   ]
+  }
+ },
+ {
+  "case": 3,
+  "query": "centre_z18",
+  "lat": 6.626985446617016,
+  "lon": 3.570843333745703,
+  "zoom": 18,
+  "response": {
+   "place_id": 41166456,
+   "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+   "osm_type": "way",
+   "osm_id": 573967048,
+   "lat": "6.6269794",
+   "lon": "3.5707854",
+   "category": "highway",
+   "type": "unclassified",
+   "place_rank": 26,
+   "importance": 0.05337429694056607,
+   "addresstype": "unclassified",
+   "name": "",
+   "display_name": "Oke, Ikorodu, Lagos State, Nigeria",
+   "address": {
+    "village": "Oke",
+    "city": "Ikorodu",
+    "state": "Lagos State",
+    "ISO3166-2-lvl4": "NG-LA",
+    "country": "Nigeria",
+    "country_code": "ng"
+   },
+   "boundingbox": [
+    "6.6266576",
+    "6.6274142",
+    "3.5707364",
+    "3.5708168"
+   ]
+  }
+ },
+ {
+  "case": 3,
+  "query": "centre_z16",
+  "lat": 6.626985446617016,
+  "lon": 3.570843333745703,
+  "zoom": 16,
+  "response": {
+   "place_id": 41126701,
+   "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+   "osm_type": "way",
+   "osm_id": 573967048,
+   "lat": "6.6269794",
+   "lon": "3.5707854",
+   "category": "highway",
+   "type": "unclassified",
+   "place_rank": 26,
+   "importance": 0.05337429694056607,
+   "addresstype": "unclassified",
+   "name": "",
+   "display_name": "Oke, Ikorodu, Lagos State, Nigeria",
+   "address": {
+    "village": "Oke",
+    "city": "Ikorodu",
+    "state": "Lagos State",
+    "ISO3166-2-lvl4": "NG-LA",
+    "country": "Nigeria",
+    "country_code": "ng"
+   },
+   "boundingbox": [
+    "6.6266576",
+    "6.6274142",
+    "3.5707364",
+    "3.5708168"
+   ]
+  }
+ },
+ {
+  "case": 3,
+  "query": "centre_z14",
+  "lat": 6.626985446617016,
+  "lon": 3.570843333745703,
+  "zoom": 14,
+  "response": {
+   "place_id": 40707849,
+   "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+   "osm_type": "node",
+   "osm_id": 501397473,
+   "lat": "6.6237029",
+   "lon": "3.5766931",
+   "category": "place",
+   "type": "village",
+   "place_rank": 19,
+   "importance": 0.1467076302738994,
+   "addresstype": "village",
+   "name": "Oke",
+   "display_name": "Oke, Ikorodu, Lagos State, Nigeria",
+   "address": {
+    "village": "Oke",
+    "city": "Ikorodu",
+    "state": "Lagos State",
+    "ISO3166-2-lvl4": "NG-LA",
+    "country": "Nigeria",
+    "country_code": "ng"
+   },
+   "boundingbox": [
+    "6.6037029",
+    "6.6437029",
+    "3.5566931",
+    "3.5966931"
+   ]
+  }
+ },
+ {
+  "case": 3,
+  "query": "cell_5741_z16",
+  "lat": 6.633326213795397,
+  "lon": 3.5631611666542042,
+  "zoom": 16,
+  "response": {
+   "place_id": 41233698,
+   "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+   "osm_type": "way",
+   "osm_id": 571064588,
+   "lat": "6.6335364",
+   "lon": "3.5629714",
+   "category": "highway",
+   "type": "residential",
+   "place_rank": 26,
+   "importance": 0.05337429694056607,
+   "addresstype": "residential",
+   "name": "",
+   "display_name": "Parafa, Ikorodu, Lagos State, 102101, Nigeria",
+   "address": {
+    "village": "Parafa",
+    "city": "Ikorodu",
+    "state": "Lagos State",
+    "ISO3166-2-lvl4": "NG-LA",
+    "postcode": "102101",
+    "country": "Nigeria",
+    "country_code": "ng"
+   },
+   "boundingbox": [
+    "6.6332210",
+    "6.6353124",
+    "3.5626213",
+    "3.5649776"
+   ]
+  }
+ },
+ {
+  "case": 3,
+  "query": "cell_5742_z16",
+  "lat": 6.633321057792338,
+  "lon": 3.567684399157335,
+  "zoom": 16,
+  "response": {
+   "place_id": 40674615,
+   "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+   "osm_type": "way",
+   "osm_id": 571039131,
+   "lat": "6.6332185",
+   "lon": "3.5674014",
+   "category": "highway",
+   "type": "residential",
+   "place_rank": 26,
+   "importance": 0.05337429694056607,
+   "addresstype": "residential",
+   "name": "",
+   "display_name": "Oke, Ikorodu, Lagos State, Nigeria",
+   "address": {
+    "village": "Oke",
+    "city": "Ikorodu",
+    "state": "Lagos State",
+    "ISO3166-2-lvl4": "NG-LA",
+    "country": "Nigeria",
+    "country_code": "ng"
+   },
+   "boundingbox": [
+    "6.6330531",
+    "6.6337818",
+    "3.5671972",
+    "3.5674614"
+   ]
+  }
+ },
+ {
+  "case": 3,
+  "query": "cell_5743_z16",
+  "lat": 6.633315860548001,
+  "lon": 3.5722076280519124,
+  "zoom": 16,
+  "response": {
+   "place_id": 41206431,
+   "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+   "osm_type": "way",
+   "osm_id": 571039125,
+   "lat": "6.6332981",
+   "lon": "3.5721643",
+   "category": "highway",
+   "type": "residential",
+   "place_rank": 26,
+   "importance": 0.05337429694056607,
+   "addresstype": "residential",
+   "name": "",
+   "display_name": "Oke, Ikorodu, Lagos State, Nigeria",
+   "address": {
+    "village": "Oke",
+    "city": "Ikorodu",
+    "state": "Lagos State",
+    "ISO3166-2-lvl4": "NG-LA",
+    "country": "Nigeria",
+    "country_code": "ng"
+   },
+   "boundingbox": [
+    "6.6330576",
+    "6.6352019",
+    "3.5715531",
+    "3.5722146"
+   ]
+  }
+ },
+ {
+  "case": 3,
+  "query": "cell_6111_z16",
+  "lat": 6.628803382569681,
+  "lon": 3.563156032603581,
+  "zoom": 16,
+  "response": {
+   "place_id": 41325217,
+   "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+   "osm_type": "way",
+   "osm_id": 571048819,
+   "lat": "6.6288024",
+   "lon": "3.5631536",
+   "category": "highway",
+   "type": "residential",
+   "place_rank": 26,
+   "importance": 0.05337429694056607,
+   "addresstype": "residential",
+   "name": "",
+   "display_name": "Elesin, Ikorodu, Lagos State, 102101, Nigeria",
+   "address": {
+    "village": "Elesin",
+    "city": "Ikorodu",
+    "state": "Lagos State",
+    "ISO3166-2-lvl4": "NG-LA",
+    "postcode": "102101",
+    "country": "Nigeria",
+    "country_code": "ng"
+   },
+   "boundingbox": [
+    "6.6281169",
+    "6.6295603",
+    "3.5629258",
+    "3.5633321"
+   ]
+  }
+ },
+ {
+  "case": 3,
+  "query": "cell_6112_z16",
+  "lat": 6.6287982301124915,
+  "lon": 3.5676792238761035,
+  "zoom": 16,
+  "response": {
+   "place_id": 41187769,
+   "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+   "osm_type": "way",
+   "osm_id": 1125966223,
+   "lat": "6.6291926",
+   "lon": "3.5678275",
+   "category": "highway",
+   "type": "residential",
+   "place_rank": 26,
+   "importance": 0.05337429694056607,
+   "addresstype": "residential",
+   "name": "",
+   "display_name": "Oke, Ikorodu, Lagos State, Nigeria",
+   "address": {
+    "village": "Oke",
+    "city": "Ikorodu",
+    "state": "Lagos State",
+    "ISO3166-2-lvl4": "NG-LA",
+    "country": "Nigeria",
+    "country_code": "ng"
+   },
+   "boundingbox": [
+    "6.6291926",
+    "6.6299730",
+    "3.5676044",
+    "3.5678275"
+   ]
+  }
+ },
+ {
+  "case": 3,
+  "query": "cell_6113_z16",
+  "lat": 6.628793036442387,
+  "lon": 3.572202411540235,
+  "zoom": 16,
+  "response": {
+   "place_id": 41106829,
+   "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+   "osm_type": "way",
+   "osm_id": 570285402,
+   "lat": "6.6285754",
+   "lon": "3.5722135",
+   "category": "highway",
+   "type": "unclassified",
+   "place_rank": 26,
+   "importance": 0.05337429694056607,
+   "addresstype": "unclassified",
+   "name": "",
+   "display_name": "Oke, Ikorodu, Lagos State, Nigeria",
+   "address": {
+    "village": "Oke",
+    "city": "Ikorodu",
+    "state": "Lagos State",
+    "ISO3166-2-lvl4": "NG-LA",
+    "country": "Nigeria",
+    "country_code": "ng"
+   },
+   "boundingbox": [
+    "6.6277712",
+    "6.6286205",
+    "3.5710931",
+    "3.5735473"
+   ]
+  }
+ },
+ {
+  "case": 3,
+  "query": "cell_6483_z16",
+  "lat": 6.624270211510453,
+  "lon": 3.572197198665697,
+  "zoom": 16,
+  "response": {
+   "place_id": 41003758,
+   "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+   "osm_type": "way",
+   "osm_id": 1035898451,
+   "lat": "6.6244177",
+   "lon": "3.5720173",
+   "category": "highway",
+   "type": "unclassified",
+   "place_rank": 26,
+   "importance": 0.05337429694056607,
+   "addresstype": "unclassified",
+   "name": "",
+   "display_name": "Oke, Ikorodu, Lagos State, Nigeria",
+   "address": {
+    "village": "Oke",
+    "city": "Ikorodu",
+    "state": "Lagos State",
+    "ISO3166-2-lvl4": "NG-LA",
+    "country": "Nigeria",
+    "country_code": "ng"
+   },
+   "boundingbox": [
+    "6.6238773",
+    "6.6248293",
+    "3.5715732",
+    "3.5723555"
+   ]
+  }
+ },
+ {
+  "case": 3,
+  "query": "cell_6484_z16",
+  "lat": 6.6242649802301266,
+  "lon": 3.5767203414911535,
+  "zoom": 16,
+  "response": {
+   "place_id": 40689138,
+   "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+   "osm_type": "way",
+   "osm_id": 570294897,
+   "lat": "6.6245027",
+   "lon": "3.5766689",
+   "category": "highway",
+   "type": "residential",
+   "place_rank": 26,
+   "importance": 0.05337429694056607,
+   "addresstype": "residential",
+   "name": "",
+   "display_name": "Oke, Ikorodu, Lagos State, Nigeria",
+   "address": {
+    "village": "Oke",
+    "city": "Ikorodu",
+    "state": "Lagos State",
+    "ISO3166-2-lvl4": "NG-LA",
+    "country": "Nigeria",
+    "country_code": "ng"
+   },
+   "boundingbox": [
+    "6.6243747",
+    "6.6251189",
+    "3.5761841",
+    "3.5780065"
+   ]
+  }
+ },
+ {
+  "case": 3,
+  "query": "cell_6854_z16",
+  "lat": 6.619742158074897,
+  "lon": 3.576715091080801,
+  "zoom": 16,
+  "response": {
+   "place_id": 40854246,
+   "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+   "osm_type": "way",
+   "osm_id": 573664840,
+   "lat": "6.6200932",
+   "lon": "3.5766918",
+   "category": "highway",
+   "type": "residential",
+   "place_rank": 26,
+   "importance": 0.05337429694056607,
+   "addresstype": "residential",
+   "name": "",
+   "display_name": "Oke, Ikorodu, Lagos State, Nigeria",
+   "address": {
+    "village": "Oke",
+    "city": "Ikorodu",
+    "state": "Lagos State",
+    "ISO3166-2-lvl4": "NG-LA",
+    "country": "Nigeria",
+    "country_code": "ng"
+   },
+   "boundingbox": [
+    "6.6200932",
+    "6.6206975",
+    "3.5764273",
+    "3.5770395"
+   ]
+  }
+ },
+ {
+  "case": 3,
+  "query": "cell_7224_z16",
+  "lat": 6.615219335094389,
+  "lon": 3.5767098443360066,
+  "zoom": 16,
+  "response": {
+   "place_id": 420998487,
+   "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+   "osm_type": "way",
+   "osm_id": 1530594646,
+   "lat": "6.6157125",
+   "lon": "3.5771562",
+   "category": "highway",
+   "type": "residential",
+   "place_rank": 26,
+   "importance": 0.05337429694056607,
+   "addresstype": "residential",
+   "name": "",
+   "display_name": "Oke, Ikorodu, Lagos State, Nigeria",
+   "address": {
+    "village": "Oke",
+    "city": "Ikorodu",
+    "state": "Lagos State",
+    "ISO3166-2-lvl4": "NG-LA",
+    "country": "Nigeria",
+    "country_code": "ng"
+   },
+   "boundingbox": [
+    "6.6144270",
+    "6.6158791",
+    "3.5771173",
+    "3.5784195"
+   ]
+  }
+ }
+]

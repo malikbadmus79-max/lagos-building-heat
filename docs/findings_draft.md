@@ -61,7 +61,7 @@ All four H2 runs are negative with intervals excluding zero, so H2 is robust by 
 | Primary (M2) | −0.039 | −0.046 to −0.032 |
 | Without sand-filling candidates | −0.034 | −0.040 to −0.028 |
 | Unscreened relative median | −0.040 | −0.048 to −0.033 |
-| With bare-share change as control | −0.034 | −0.040 to −0.029 |
+| With bare-share change as control | −0.034 | −0.040 to −0.028 |
 
 The 80th-percentile and unscreened versions agree in sign, as the plan requires. The descriptive check on the 746 `ndvi_screened_ok` cells, which uses the screened median, no controls and no fixed effects, is also negative: −0.082 per 10 percentage points (−0.104 to −0.059), with a Pearson correlation of −0.406 (`phase2_models.csv`, run `H2_screened_descriptive`; `phase2.json`).
 
@@ -155,13 +155,13 @@ These are counts of residents in cells that meet the hotspot rule. They do not d
 
 The hotspot cells form 155 rook-contiguous clusters. Under the plan's rule, the three largest are chosen; the third has 10 cells, at least the required 4 (`phase2_case_studies.csv`, `phase2.json`):
 
-| Case | LGA (cells in) | Cells | Mean building change | Mean relative LST change (°C) | Mean relative NDVI change (p80) | WorldPop 2023 | Centre (lon, lat) |
+| Case | Area (LGA) | Cells | Mean building change | Mean relative LST change (°C) | Mean relative NDVI change (p80) | WorldPop 2023 | Centre (lon, lat) |
 |---|---|---|---|---|---|---|---|
-| 1 | Eti Osa | 19 | 0.245 | 2.667 | −0.084 | 18,949 | 3.551, 6.438 |
-| 2 | Alimosho (Alimosho; Ifako/Ijaye) | 13 | 0.107 | 1.628 | −0.011 | 65,196 | 3.293, 6.643 |
-| 3 | Ikorodu | 10 | 0.090 | 1.522 | −0.036 | 11,855 | 3.571, 6.627 |
+| 1 | Lekki Peninsula II (Chevron area), Eti-Osa | 19 | 0.245 | 2.667 | −0.084 | 18,949 | 3.551, 6.438 |
+| 2 | Abule Egba / Iyana Ipaja, Alimosho (cells also in Ifako/Ijaye) | 13 | 0.107 | 1.628 | −0.011 | 65,196 | 3.293, 6.643 |
+| 3 | Oke, Ikorodu | 10 | 0.090 | 1.522 | −0.036 | 11,855 | 3.571, 6.627 |
 
-The before/after maps of buildings, NDVI and LST for these areas have not been produced yet (deviation 7 in the plan).
+Area names are OpenStreetMap names near each cluster centre (Nominatim reverse geocoding), confirmed by the author (`docs/phase3_validation.md`, `phase3_case_names.csv`). The before/after maps of buildings, NDVI and LST for these areas are `figures/phase2/case1_before_after.png`, `case2_before_after.png` and `case3_before_after.png` (deviation 7 in the plan).
 
 ## Limits
 
@@ -169,4 +169,5 @@ The before/after maps of buildings, NDVI and LST for these areas have not been p
 - **Sensor mix:** the Landsat 8-only estimate is about half the primary estimate.
 - **Regression to the mean:** the estimate varies strongly across terciles of early relative LST.
 - **Vegetated group:** building change in this group is concentrated in few cells.
+- **Building change in dense cells:** building-change values in cells that were already densely built in 2016 are less reliable. In the imagery spot-check, the disagreements between the dataset and the imagery are concentrated in such cells, where the dataset records gains of several percentage points but no clear new building is visible (`docs/phase3_validation.md`). This is consistent with the weak association in the built-up group under H4.
 - **Dates and sensors:** buildings (2016, 2023), vegetation and LST (dry seasons 2016–18 and 2023–25) refer to different dates. Sensors and haze differ between periods (`docs/phase1_notes.md`).

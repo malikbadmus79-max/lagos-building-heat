@@ -1,0 +1,124 @@
+{
+  "sample": {
+    "seed": 20261103,
+    "population": "phase2 main sample",
+    "n_main": 9157,
+    "strata": {
+      "hotspot": {
+        "n_drawn": 15,
+        "rule": "hotspot cell (phase2_sample.csv)",
+        "stratum_size": 329
+      },
+      "high_change_not_hotspot": {
+        "n_drawn": 15,
+        "rule": "not hotspot and bshare_change >= 0.057984 (hotspot quintile cut)",
+        "stratum_size": 1503
+      },
+      "low_change": {
+        "n_drawn": 10,
+        "rule": "|bshare_change| <= 0.006208 (main-sample median)",
+        "stratum_size": 4384
+      }
+    }
+  },
+  "findings_trace": {
+    "draft": "docs/findings_draft.md",
+    "numbers": 344,
+    "by_kind": {
+      "csv": 254,
+      "const": 42,
+      "json": 20,
+      "label": 13,
+      "derived": 9,
+      "plan": 6
+    },
+    "numbers_checked": 331,
+    "numbers_matched": 331,
+    "labels_not_checked": 13,
+    "word_claims": 9,
+    "word_claims_hold": 9,
+    "untraced_numbers": [],
+    "mismatches": []
+  },
+  "recompute": {
+    "tolerances": {
+      "bshare": 0.02,
+      "lst_rel": 0.005,
+      "ndvi_rel_p80": 0.0005
+    },
+    "n_cells": 40,
+    "n_values": 240,
+    "n_match": 240,
+    "match_rate": 1.0,
+    "by_variable": [
+      {
+        "variable": "bshare_2016",
+        "n": 40,
+        "matches": 40,
+        "max_abs_difference": 0.012637999999999983,
+        "mean_difference": 0.00043984999999999717
+      },
+      {
+        "variable": "bshare_2023",
+        "n": 40,
+        "matches": 40,
+        "max_abs_difference": 0.01878499999999994,
+        "mean_difference": -0.002022849999999997
+      },
+      {
+        "variable": "lst_rel_early",
+        "n": 40,
+        "matches": 40,
+        "max_abs_difference": 0.0,
+        "mean_difference": 0.0
+      },
+      {
+        "variable": "lst_rel_late",
+        "n": 40,
+        "matches": 40,
+        "max_abs_difference": 0.0,
+        "mean_difference": 0.0
+      },
+      {
+        "variable": "ndvi_rel_early_p80",
+        "n": 40,
+        "matches": 40,
+        "max_abs_difference": 0.0,
+        "mean_difference": 0.0
+      },
+      {
+        "variable": "ndvi_rel_late_p80",
+        "n": 40,
+        "matches": 40,
+        "max_abs_difference": 0.0,
+        "mean_difference": 0.0
+      }
+    ],
+    "cell_ids_row_col_ok": true,
+    "max_centre_diff_m": 0.0,
+    "mismatches": []
+  },
+  "spotcheck": {
+    "n_cells": 40,
+    "wayback_release_2016": {
+      "num": 13240,
+      "date": "2016-07-06"
+    },
+    "wayback_release_2023": {
+      "num": 47963,
+      "date": "2023-06-29"
+    },
+    "ndvi_flat_threshold": 0.02,
+    "ndvi_direction_counts": {
+      "decrease": 24,
+      "little change": 9,
+      "increase": 7
+    }
+  },
+  "names": {
+    "n_requests": 51,
+    "n_errors": 1,
+    "attribution": "Data (c) OpenStreetMap contributors, ODbL",
+    "user_agent": "lagos-building-heat-validation/0.1 (research script; low-volume reverse geocoding)"
+  }
+}
